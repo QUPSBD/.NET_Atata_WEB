@@ -1,0 +1,52 @@
+2021-11-26 21:15:41.4305  INFO Starting test: SampleApp.UITests.UserTests.Create
+2021-11-26 21:15:41.4633 TRACE > Set up AtataContext
+2021-11-26 21:15:41.4669 TRACE - Set: BaseUrl=https://bikroy.com/
+2021-11-26 21:15:41.4686 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-11-26 21:15:41.4690 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-11-26 21:15:41.4694 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-11-26 21:15:41.4699 TRACE - Set: Culture=en-US
+2021-11-26 21:15:41.4798 TRACE - Set: Artifacts=C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\bin\Debug\net5.0\artifacts\2021-11-26 21_15_41\UserTests\Create
+2021-11-26 21:15:41.4921 TRACE - Set: DriverService=ChromeDriverService on port 59426
+2021-11-26 21:15:43.2089 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-11-26 21:15:43.2176 TRACE < Set up AtataContext (1.747s)
+2021-11-26 21:15:43.3337  INFO Go to "Sign In" page
+2021-11-26 21:15:43.4201  INFO Go to URL "https://bikroy.com/signin"
+2021-11-26 21:15:44.5609 TRACE > Execute trigger VerifyTitleAttribute { Case=Title, Match=Equals, Timeout=5, RetryInterval=0.5 } on Init against "Sign In" page
+2021-11-26 21:15:44.5815  INFO - > Assert: title should equal "Sign In"
+2021-11-26 21:15:49.7088  INFO - < Assert: title should equal "Sign In" (5.126s) >> NUnit.Framework.AssertionException: Wrong "Sign In" page title...
+2021-11-26 21:15:49.7107 TRACE < Execute trigger VerifyTitleAttribute { Case=Title, Match=Equals, Timeout=5, RetryInterval=0.5 } on Init against "Sign In" page (5.149s) >> NUnit.Framework.AssertionException: Wrong "Sign In" page title...
+2021-11-26 21:15:49.7336  INFO > Clean up AtataContext
+2021-11-26 21:15:49.7359 TRACE - > Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent
+2021-11-26 21:15:49.7383 TRACE - < Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent (0.002s)
+2021-11-26 21:15:49.7565 TRACE - > Execute event handler TakeScreenshotOnNUnitErrorOnCleanUpEventHandler on AtataContextCleanUpEvent
+2021-11-26 21:15:49.7599 TRACE - < Execute event handler TakeScreenshotOnNUnitErrorOnCleanUpEventHandler on AtataContextCleanUpEvent (0.003s)
+2021-11-26 21:15:49.7650 TRACE - > Execute event handler LogNUnitErrorOnCleanUpEventHandler on AtataContextCleanUpEvent
+2021-11-26 21:15:49.7705 ERROR - - Wrong "Sign In" page title
+Expected: "Sign In"
+  Actual: "Bikroy.com"
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.ReportFailure(String message, Exception exception)
+   at Atata.VerificationProvider`2.Atata.IVerificationProvider<TOwner>.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.<>c__DisplayClass1_0`2.<Satisfy>g__ExecuteVerification|0()
+   at Atata.LogManager.ExecuteSection(LogSection section, Action action)
+   at Atata.VerificationUtils.Verify[TData,TOwner](IDataVerificationProvider`2 should, Action verificationAction, String expectedMessage, TData[] arguments)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.VerifyTitleAttribute.OnExecute[TOwner](TriggerContext`1 context, String[] values)
+   at Atata.TermVerificationTriggerAttribute.Execute[TOwner](TriggerContext`1 context)
+   at Atata.UIComponentTriggerSet`1.<>c__DisplayClass18_3.<Execute>b__2()
+   at Atata.LogManager.ExecuteSection(LogSection section, Action action)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.UIComponent`1.ExecuteTriggers(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.AtataNavigator.GoToInitialPageObject[T](T pageObject, GoOptions options)
+   at Atata.AtataNavigator.To[T](T pageObject, GoOptions options)
+   at Atata.AtataNavigator.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at Atata.Go.To[T](T pageObject, String url, Boolean navigate, Boolean temporarily)
+   at SampleApp.UITests.UITestFixture.Login() in C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\UITestFixture.cs:line 23
+   at SampleApp.UITests.UserTests.Create() in C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\UserTests.cs:line 14
+
+2021-11-26 21:15:49.7711 TRACE - < Execute event handler LogNUnitErrorOnCleanUpEventHandler on AtataContextCleanUpEvent (0.006s)
+2021-11-26 21:15:51.6845  INFO < Clean up AtataContext (1.950s)
+2021-11-26 21:15:51.6852  INFO Finished test (10.420s)
+2021-11-26 21:15:51.6856  INFO Pure test execution time: 6.514s

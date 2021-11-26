@@ -12,11 +12,10 @@ namespace SampleApp.UITests
             AtataContext.GlobalConfiguration
                 .UseChrome()
                     .WithArguments("start-maximized")
-                .UseBaseUrl("https://demo.atata.io/")
+                .UseBaseUrl("https://bikroy.com/")
                 .UseCulture("en-US")
-                .UseAllNUnitFeatures()
-                .Attributes.Global.Add(
-                    new VerifyTitleSettingsAttribute { Format = "{0} - Atata Sample App" });
+                .UseAllNUnitFeatures();
+                //.Attributes.Global.Add(new VerifyTitleSettingsAttribute { Format = "{0} - Atata Sample App" });
 
             AtataContext.GlobalConfiguration.AutoSetUpDriverToUse();
         }
