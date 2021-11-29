@@ -1,7 +1,7 @@
 ﻿using Atata;
 using NUnit.Framework;
 
-namespace SampleApp.UITests
+namespace SampleApp.UITests.Tests
 {
     [SetUpFixture]
     public class SetUpFixture

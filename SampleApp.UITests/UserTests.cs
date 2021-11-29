@@ -1,17 +1,18 @@
 ﻿using Atata;
 using NUnit.Framework;
+using SampleApp.UITests.Tests;
 
 namespace SampleApp.UITests
 {
     public class UserTests : UITestFixture
     {
-        [Test]
+       
         public void Create()
         {
             Office office = Office.NewYork;
             Gender gender = Gender.Male;
 
-            Login() // Returns UsersPage.
+            /*Login() // Returns UsersPage.
                 .New.ClickAndGo() // Returns UserEditWindow.
                     .ModalTitle.Should.Equal("New User")
                     .General.FirstName.SetRandom(out string firstName)
@@ -27,7 +28,7 @@ namespace SampleApp.UITests
                         .Office.Should.Equal(office)
                         .Gender.Should.Equal(gender)
                         .Birthday.Should.Not.Exist()
-                        .Notes.Should.Not.Exist());
+                        .Notes.Should.Not.Exist());*/
         }
     }
 }

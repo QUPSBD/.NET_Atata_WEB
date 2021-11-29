@@ -1,0 +1,109 @@
+2021-11-28 21:29:55.2605  INFO Starting test: SampleApp.UITests.Tests.ChatTest.ChatPageTest
+2021-11-28 21:29:55.2945 TRACE > Set up AtataContext
+2021-11-28 21:29:55.2978 TRACE - Set: BaseUrl=https://bikroy.com/
+2021-11-28 21:29:55.2999 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-11-28 21:29:55.3004 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-11-28 21:29:55.3007 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-11-28 21:29:55.3011 TRACE - Set: Culture=en-US
+2021-11-28 21:29:55.3078 TRACE - Set: Artifacts=C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\bin\Debug\net5.0\artifacts\2021-11-28 21_29_55\ChatTest\ChatPageTest
+2021-11-28 21:29:55.3174 TRACE - Set: DriverService=ChromeDriverService on port 57603
+2021-11-28 21:29:57.0195 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-11-28 21:29:57.0294 TRACE < Set up AtataContext (1.728s)
+2021-11-28 21:29:57.1406  INFO Go to "Home" page
+2021-11-28 21:29:57.2254  INFO Go to URL "https://bikroy.com/"
+2021-11-28 21:30:01.4050  INFO > Click "Sign In" link
+2021-11-28 21:30:01.4097 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Sign In" link
+2021-11-28 21:30:01.4710 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' title--1NHWk ') and contains(concat(' ', normalize-space(@class), ' '), ' gtm-login-click ')]/descendant-or-self::a" in ChromeDriver
+2021-11-28 21:30:01.6063 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' title--1NHWk ') and contains(concat(' ', normalize-space(@class), ' '), ' gtm-login-click ')]/descendant-or-self::a" in ChromeDriver (0.133s) >> Element { Id=3199162c-4777-4afc-8a94-d232763abfa5 }
+2021-11-28 21:30:01.6091 TRACE - - > Click element { Id=3199162c-4777-4afc-8a94-d232763abfa5 }
+2021-11-28 21:30:01.9044 TRACE - - < Click element { Id=3199162c-4777-4afc-8a94-d232763abfa5 } (0.295s)
+2021-11-28 21:30:01.9048 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Sign In" link (0.495s)
+2021-11-28 21:30:01.9050  INFO < Click "Sign In" link (0.500s)
+2021-11-28 21:30:01.9055  INFO > Click "Continue with Email" button
+2021-11-28 21:30:01.9061 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Continue with Email" button
+2021-11-28 21:30:01.9120 TRACE - - > Find visible element by XPath "(/html/body/div[3]/div/div/div/div[2]/div[2]/div/div[3]/button)/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver
+2021-11-28 21:30:02.7289 TRACE - - < Find visible element by XPath "(/html/body/div[3]/div/div/div/div[2]/div[2]/div/div[3]/button)/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver (0.816s) >> Element { Id=7cc52c40-557f-4004-b06d-4434480b1f64 }
+2021-11-28 21:30:02.7296 TRACE - - > Click element { Id=7cc52c40-557f-4004-b06d-4434480b1f64 }
+2021-11-28 21:30:02.8675 TRACE - - < Click element { Id=7cc52c40-557f-4004-b06d-4434480b1f64 } (0.137s)
+2021-11-28 21:30:02.8680 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Continue with Email" button (0.961s)
+2021-11-28 21:30:02.8682  INFO < Click "Continue with Email" button (0.962s)
+2021-11-28 21:30:02.8887  INFO > Set "ashiq10@gmail.com" to "Email" email input
+2021-11-28 21:30:02.8930 TRACE - > Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Email" email input
+2021-11-28 21:30:02.8971 TRACE - - > Execute behavior ClearsValueUsingClearMethodAttribute against "Email" email input
+2021-11-28 21:30:02.9044 TRACE - - - > Find visible element by XPath ".//*[normalize-space(@id) = 'input_email']/descendant-or-self::input[@type='email']" in ChromeDriver
+2021-11-28 21:30:02.9620 TRACE - - - < Find visible element by XPath ".//*[normalize-space(@id) = 'input_email']/descendant-or-self::input[@type='email']" in ChromeDriver (0.057s) >> Element { Id=8718ae3b-f4ad-4619-8978-23a60adc8ced }
+2021-11-28 21:30:02.9677 TRACE - - - > Clear element { Id=8718ae3b-f4ad-4619-8978-23a60adc8ced }
+2021-11-28 21:30:03.0227 TRACE - - - < Clear element { Id=8718ae3b-f4ad-4619-8978-23a60adc8ced } (0.054s)
+2021-11-28 21:30:03.0231 TRACE - - < Execute behavior ClearsValueUsingClearMethodAttribute against "Email" email input (0.126s)
+2021-11-28 21:30:03.0243 TRACE - - > Execute behavior TypesTextUsingSendKeysAttribute against "Email" email input
+2021-11-28 21:30:03.0283 TRACE - - - > Send keys "ashiq10@gmail.com" to element { Id=8718ae3b-f4ad-4619-8978-23a60adc8ced }
+2021-11-28 21:30:03.2042 TRACE - - - < Send keys "ashiq10@gmail.com" to element { Id=8718ae3b-f4ad-4619-8978-23a60adc8ced } (0.175s)
+2021-11-28 21:30:03.2046 TRACE - - < Execute behavior TypesTextUsingSendKeysAttribute against "Email" email input (0.180s)
+2021-11-28 21:30:03.2048 TRACE - < Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Email" email input (0.311s)
+2021-11-28 21:30:03.2050  INFO < Set "ashiq10@gmail.com" to "Email" email input (0.316s)
+2021-11-28 21:30:03.2053  INFO > Set "123456789As@" to "Password" password input
+2021-11-28 21:30:03.2056 TRACE - > Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Password" password input
+2021-11-28 21:30:03.2059 TRACE - - > Execute behavior ClearsValueUsingClearMethodAttribute against "Password" password input
+2021-11-28 21:30:03.2067 TRACE - - - > Find visible element by XPath ".//*[normalize-space(@id) = 'input_password']/descendant-or-self::input[@type='password']" in ChromeDriver
+2021-11-28 21:30:03.2502 TRACE - - - < Find visible element by XPath ".//*[normalize-space(@id) = 'input_password']/descendant-or-self::input[@type='password']" in ChromeDriver (0.043s) >> Element { Id=5396cacc-dd05-4cee-a771-4e2f758aa339 }
+2021-11-28 21:30:03.2507 TRACE - - - > Clear element { Id=5396cacc-dd05-4cee-a771-4e2f758aa339 }
+2021-11-28 21:30:03.3091 TRACE - - - < Clear element { Id=5396cacc-dd05-4cee-a771-4e2f758aa339 } (0.058s)
+2021-11-28 21:30:03.3095 TRACE - - < Execute behavior ClearsValueUsingClearMethodAttribute against "Password" password input (0.103s)
+2021-11-28 21:30:03.3099 TRACE - - > Execute behavior TypesTextUsingSendKeysAttribute against "Password" password input
+2021-11-28 21:30:03.3102 TRACE - - - > Send keys "123456789As@" to element { Id=5396cacc-dd05-4cee-a771-4e2f758aa339 }
+2021-11-28 21:30:03.4755 TRACE - - - < Send keys "123456789As@" to element { Id=5396cacc-dd05-4cee-a771-4e2f758aa339 } (0.165s)
+2021-11-28 21:30:03.4759 TRACE - - < Execute behavior TypesTextUsingSendKeysAttribute against "Password" password input (0.165s)
+2021-11-28 21:30:03.4762 TRACE - < Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Password" password input (0.270s)
+2021-11-28 21:30:03.4764  INFO < Set "123456789As@" to "Password" password input (0.271s)
+2021-11-28 21:30:03.4767  INFO > Click "Login Btn" button
+2021-11-28 21:30:03.4772 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Login Btn" button
+2021-11-28 21:30:03.4781 TRACE - - > Find visible element by XPath "(/html/body/div[3]/div/div/div/div[2]/div[2]/div/form/div[2]/div/button)/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver
+2021-11-28 21:30:03.5181 TRACE - - < Find visible element by XPath "(/html/body/div[3]/div/div/div/div[2]/div[2]/div/form/div[2]/div/button)/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver (0.039s) >> Element { Id=a6e4c014-3ebe-42bc-9b1e-81b41682e9ca }
+2021-11-28 21:30:03.5186 TRACE - - > Click element { Id=a6e4c014-3ebe-42bc-9b1e-81b41682e9ca }
+2021-11-28 21:30:03.6545 TRACE - - < Click element { Id=a6e4c014-3ebe-42bc-9b1e-81b41682e9ca } (0.135s)
+2021-11-28 21:30:03.6549 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Login Btn" button (0.177s)
+2021-11-28 21:30:03.6550  INFO < Click "Login Btn" button (0.178s)
+2021-11-28 21:30:03.6553  INFO > Click "Chat" button
+2021-11-28 21:30:03.6582 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Chat" button
+2021-11-28 21:30:03.6592 TRACE - - > Find visible element by XPath "(//body/div[@id='app-container']/div[@id='app-wrapper']/div[1]/div[2]/div[1]/nav[1]/div[1]/ul[2]/li[1]/div[1]/a[1])/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver
+2021-11-28 21:30:08.6764 TRACE - - < Find visible element by XPath "(//body/div[@id='app-container']/div[@id='app-wrapper']/div[1]/div[2]/div[1]/nav[1]/div[1]/ul[2]/li[1]/div[1]/a[1])/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver (5.016s) >> OpenQA.Selenium.NoSuchElementException: Unable to locate visible element:...
+2021-11-28 21:30:08.6767 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Chat" button (5.018s) >> OpenQA.Selenium.NoSuchElementException: Unable to locate visible element:...
+2021-11-28 21:30:08.6775  INFO < Click "Chat" button (5.022s) >> OpenQA.Selenium.NoSuchElementException: Unable to locate visible element:...
+2021-11-28 21:30:08.7143  INFO > Clean up AtataContext
+2021-11-28 21:30:08.7163 TRACE - > Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent
+2021-11-28 21:30:08.7179 TRACE - < Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent (0.001s)
+2021-11-28 21:30:08.7300 TRACE - > Execute event handler TakeScreenshotOnNUnitErrorOnCleanUpEventHandler on AtataContextCleanUpEvent
+2021-11-28 21:30:08.7329 TRACE - < Execute event handler TakeScreenshotOnNUnitErrorOnCleanUpEventHandler on AtataContextCleanUpEvent (0.002s)
+2021-11-28 21:30:08.7355 TRACE - > Execute event handler LogNUnitErrorOnCleanUpEventHandler on AtataContextCleanUpEvent
+2021-11-28 21:30:08.7400 ERROR - - OpenQA.Selenium.NoSuchElementException : Unable to locate visible element:
+- By: XPath "(//body/div[@id='app-container']/div[@id='app-wrapper']/div[1]/div[2]/div[1]/nav[1]/div[1]/ul[2]/li[1]/div[1]/a[1])/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]"
+- Search time: 5.013s
+- Search options: {Visibility=Visible, Timeout=5s, RetryInterval=0.5s, IsSafely=False}
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.ExtendedSearchContext`1.FindElement(By by)
+   at Atata.ISearchContextExtensions.Get[T](T searchContext, By by)
+   at Atata.ISearchContextLoggingExtensions.<>c__DisplayClass0_0.<GetWithLogging>b__0()
+   at Atata.LogManager.ExecuteSection[TResult](LogSection section, Func`1 function)
+   at Atata.ISearchContextLoggingExtensions.GetWithLogging(ISearchContext searchContext, By by)
+   at Atata.XPathComponentScopeFindResult.Get(String xPathCondition)
+   at Atata.StrategyScopeLocator.<>c__DisplayClass3_0.<GetElement>b__0(XPathComponentScopeFindResult x)
+   at System.Linq.Enumerable.SelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Func`2 predicate, Boolean& found)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.get_Scope()
+   at Atata.ClicksUsingClickMethodAttribute.Execute[TOwner](IUIComponent`1 component)
+   at Atata.Control`1.<OnClick>b__14_0(ClickBehaviorAttribute x)
+   at Atata.UIComponent.<>c__DisplayClass61_0`1.<ExecuteBehavior>b__0()
+   at Atata.LogManager.ExecuteSection(LogSection section, Action action)
+   at Atata.UIComponent.ExecuteBehavior[TBehaviorAttribute](Action`1 behaviorExecutionAction)
+   at Atata.Control`1.OnClick()
+   at Atata.LogManager.ExecuteSection(LogSection section, Action action)
+   at Atata.Control`1.Click()
+   at SampleApp.UITests.Tests.ChatTest.ChatPageTest() in C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\Tests\ChatTest.cs:line 18
+2021-11-28 21:30:08.7405 TRACE - < Execute event handler LogNUnitErrorOnCleanUpEventHandler on AtataContextCleanUpEvent (0.005s)
+2021-11-28 21:30:09.3456  INFO < Clean up AtataContext (0.631s)
+2021-11-28 21:30:09.3464  INFO Finished test (14.229s)
+2021-11-28 21:30:09.3469  INFO Pure test execution time: 11.683s

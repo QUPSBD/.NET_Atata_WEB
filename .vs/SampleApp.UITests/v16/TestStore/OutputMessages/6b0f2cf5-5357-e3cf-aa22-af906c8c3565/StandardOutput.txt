@@ -1,0 +1,170 @@
+2021-11-28 22:48:16.0932  INFO Starting test: SampleApp.UITests.Tests.MyAccountTest.MyAccountElementTest
+2021-11-28 22:48:16.1865 TRACE > Set up AtataContext
+2021-11-28 22:48:16.1973 TRACE - Set: BaseUrl=https://bikroy.com/
+2021-11-28 22:48:16.2018 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-11-28 22:48:16.2026 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-11-28 22:48:16.2033 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-11-28 22:48:16.2044 TRACE - Set: Culture=en-US
+2021-11-28 22:48:16.2260 TRACE - Set: Artifacts=C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\bin\Debug\net5.0\artifacts\2021-11-28 22_48_16\MyAccountTest\MyAccountElementTest
+2021-11-28 22:48:16.2543 TRACE - Set: DriverService=ChromeDriverService on port 56293
+2021-11-28 22:48:20.2715 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-11-28 22:48:20.2893 TRACE < Set up AtataContext (4.088s)
+2021-11-28 22:48:20.5627  INFO Go to "Home" page
+2021-11-28 22:48:20.7856  INFO Go to URL "https://bikroy.com/"
+2021-11-28 22:48:58.6480  INFO > Click "Sign In" link
+2021-11-28 22:48:58.6609 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Sign In" link
+2021-11-28 22:48:58.7965 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' title--1NHWk ') and contains(concat(' ', normalize-space(@class), ' '), ' gtm-login-click ')]/descendant-or-self::a" in ChromeDriver
+2021-11-28 22:48:59.0674 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' title--1NHWk ') and contains(concat(' ', normalize-space(@class), ' '), ' gtm-login-click ')]/descendant-or-self::a" in ChromeDriver (0.266s) >> Element { Id=42e1569b-ea52-4a99-819a-d2b773224a48 }
+2021-11-28 22:48:59.0737 TRACE - - > Click element { Id=42e1569b-ea52-4a99-819a-d2b773224a48 }
+2021-11-28 22:49:01.4918 TRACE - - < Click element { Id=42e1569b-ea52-4a99-819a-d2b773224a48 } (2.418s)
+2021-11-28 22:49:01.4927 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Sign In" link (2.831s)
+2021-11-28 22:49:01.4933  INFO < Click "Sign In" link (2.845s)
+2021-11-28 22:49:01.4986  INFO > Click "Continue with Email" button
+2021-11-28 22:49:01.5005 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Continue with Email" button
+2021-11-28 22:49:01.5126 TRACE - - > Find visible element by XPath "(/html/body/div[3]/div/div/div/div[2]/div[2]/div/div[3]/button)/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver
+2021-11-28 22:49:02.7024 TRACE - - < Find visible element by XPath "(/html/body/div[3]/div/div/div/div[2]/div[2]/div/div[3]/button)/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver (1.189s) >> Element { Id=13bd2d3d-b0fe-4c94-8f28-ecf030157436 }
+2021-11-28 22:49:02.7035 TRACE - - > Click element { Id=13bd2d3d-b0fe-4c94-8f28-ecf030157436 }
+2021-11-28 22:49:02.9729 TRACE - - < Click element { Id=13bd2d3d-b0fe-4c94-8f28-ecf030157436 } (0.269s)
+2021-11-28 22:49:02.9740 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Continue with Email" button (1.473s)
+2021-11-28 22:49:02.9747  INFO < Click "Continue with Email" button (1.476s)
+2021-11-28 22:49:03.0189  INFO > Set "ashiq10@gmail.com" to "Email" email input
+2021-11-28 22:49:03.0284 TRACE - > Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Email" email input
+2021-11-28 22:49:03.0375 TRACE - - > Execute behavior ClearsValueUsingClearMethodAttribute against "Email" email input
+2021-11-28 22:49:03.0605 TRACE - - - > Find visible element by XPath ".//*[normalize-space(@id) = 'input_email']/descendant-or-self::input[@type='email']" in ChromeDriver
+2021-11-28 22:49:03.1548 TRACE - - - < Find visible element by XPath ".//*[normalize-space(@id) = 'input_email']/descendant-or-self::input[@type='email']" in ChromeDriver (0.094s) >> Element { Id=01fad679-6dcf-4d7f-b7cc-5e723e284300 }
+2021-11-28 22:49:03.1670 TRACE - - - > Clear element { Id=01fad679-6dcf-4d7f-b7cc-5e723e284300 }
+2021-11-28 22:49:03.3195 TRACE - - - < Clear element { Id=01fad679-6dcf-4d7f-b7cc-5e723e284300 } (0.152s)
+2021-11-28 22:49:03.3203 TRACE - - < Execute behavior ClearsValueUsingClearMethodAttribute against "Email" email input (0.282s)
+2021-11-28 22:49:03.3228 TRACE - - > Execute behavior TypesTextUsingSendKeysAttribute against "Email" email input
+2021-11-28 22:49:03.3313 TRACE - - - > Send keys "ashiq10@gmail.com" to element { Id=01fad679-6dcf-4d7f-b7cc-5e723e284300 }
+2021-11-28 22:49:03.8470 TRACE - - - < Send keys "ashiq10@gmail.com" to element { Id=01fad679-6dcf-4d7f-b7cc-5e723e284300 } (0.515s)
+2021-11-28 22:49:03.8479 TRACE - - < Execute behavior TypesTextUsingSendKeysAttribute against "Email" email input (0.525s)
+2021-11-28 22:49:03.8485 TRACE - < Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Email" email input (0.819s)
+2021-11-28 22:49:03.8489  INFO < Set "ashiq10@gmail.com" to "Email" email input (0.829s)
+2021-11-28 22:49:03.8497  INFO > Set "123456789As@" to "Password" password input
+2021-11-28 22:49:03.8507 TRACE - > Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Password" password input
+2021-11-28 22:49:03.8517 TRACE - - > Execute behavior ClearsValueUsingClearMethodAttribute against "Password" password input
+2021-11-28 22:49:03.8536 TRACE - - - > Find visible element by XPath ".//*[normalize-space(@id) = 'input_password']/descendant-or-self::input[@type='password']" in ChromeDriver
+2021-11-28 22:49:03.9845 TRACE - - - < Find visible element by XPath ".//*[normalize-space(@id) = 'input_password']/descendant-or-self::input[@type='password']" in ChromeDriver (0.130s) >> Element { Id=59d54807-284f-405d-8e62-20341569ab6f }
+2021-11-28 22:49:03.9853 TRACE - - - > Clear element { Id=59d54807-284f-405d-8e62-20341569ab6f }
+2021-11-28 22:49:04.1863 TRACE - - - < Clear element { Id=59d54807-284f-405d-8e62-20341569ab6f } (0.200s)
+2021-11-28 22:49:04.1871 TRACE - - < Execute behavior ClearsValueUsingClearMethodAttribute against "Password" password input (0.335s)
+2021-11-28 22:49:04.1881 TRACE - - > Execute behavior TypesTextUsingSendKeysAttribute against "Password" password input
+2021-11-28 22:49:04.1888 TRACE - - - > Send keys "123456789As@" to element { Id=59d54807-284f-405d-8e62-20341569ab6f }
+2021-11-28 22:49:04.9012 TRACE - - - < Send keys "123456789As@" to element { Id=59d54807-284f-405d-8e62-20341569ab6f } (0.712s)
+2021-11-28 22:49:04.9018 TRACE - - < Execute behavior TypesTextUsingSendKeysAttribute against "Password" password input (0.713s)
+2021-11-28 22:49:04.9022 TRACE - < Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Password" password input (1.051s)
+2021-11-28 22:49:04.9027  INFO < Set "123456789As@" to "Password" password input (1.052s)
+2021-11-28 22:49:04.9033  INFO > Click "Login Btn" button
+2021-11-28 22:49:04.9046 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Login Btn" button
+2021-11-28 22:49:04.9065 TRACE - - > Find visible element by XPath "(/html/body/div[3]/div/div/div/div[2]/div[2]/div/form/div[2]/div/button)/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver
+2021-11-28 22:49:05.0147 TRACE - - < Find visible element by XPath "(/html/body/div[3]/div/div/div/div[2]/div[2]/div/form/div[2]/div/button)/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver (0.108s) >> Element { Id=8674573b-3eaf-426c-9283-8fabe59dfbed }
+2021-11-28 22:49:05.0155 TRACE - - > Click element { Id=8674573b-3eaf-426c-9283-8fabe59dfbed }
+2021-11-28 22:49:05.4662 TRACE - - < Click element { Id=8674573b-3eaf-426c-9283-8fabe59dfbed } (0.450s)
+2021-11-28 22:49:05.4668 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Login Btn" button (0.562s)
+2021-11-28 22:49:05.4672  INFO < Click "Login Btn" button (0.563s)
+2021-11-28 22:49:05.4694  INFO > Click "My Account" link
+2021-11-28 22:49:05.4700 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "My Account" link
+2021-11-28 22:49:05.4765 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' header-link--woAbP ') and contains(concat(' ', normalize-space(@class), ' '), ' title--1NHWk ') and contains(concat(' ', normalize-space(@class), ' '), ' gtm-myaccount-click ')]/descendant-or-self::a" in ChromeDriver
+2021-11-28 22:49:12.0135 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' header-link--woAbP ') and contains(concat(' ', normalize-space(@class), ' '), ' title--1NHWk ') and contains(concat(' ', normalize-space(@class), ' '), ' gtm-myaccount-click ')]/descendant-or-self::a" in ChromeDriver (6.536s) >> Element { Id=24d960bd-d290-4815-b7c6-f37d178d5c09 }
+2021-11-28 22:49:12.0139 TRACE - - > Click element { Id=24d960bd-d290-4815-b7c6-f37d178d5c09 }
+2021-11-28 22:49:13.4700 TRACE - - < Click element { Id=24d960bd-d290-4815-b7c6-f37d178d5c09 } (1.456s)
+2021-11-28 22:49:13.4707 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "My Account" link (8.000s)
+2021-11-28 22:49:13.4711  INFO < Click "My Account" link (8.001s)
+2021-11-28 22:49:13.4923  INFO Go to "My Account" page
+2021-11-28 22:49:13.5157  INFO > Assert: "Valid Account" <h4> heading content should equal "Account"
+2021-11-28 22:49:13.5284 TRACE - > Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid Account" <h4> heading
+2021-11-28 22:49:13.5324 TRACE - - > Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/h4)/descendant-or-self::h4" in ChromeDriver
+2021-11-28 22:49:13.5804 TRACE - - < Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/h4)/descendant-or-self::h4" in ChromeDriver (0.047s) >> Element { Id=a7176814-a334-4ba4-96c0-473090ae3ae9 }
+2021-11-28 22:49:13.6075 TRACE - < Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid Account" <h4> heading (0.079s) >> "Account"
+2021-11-28 22:49:13.6129  INFO < Assert: "Valid Account" <h4> heading content should equal "Account" (0.097s)
+2021-11-28 22:49:13.6136  INFO > Click "My Membership" link
+2021-11-28 22:49:13.6141 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "My Membership" link
+2021-11-28 22:49:13.6149 TRACE - - > Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/nav/ul/li[2]/a)/descendant-or-self::a" in ChromeDriver
+2021-11-28 22:49:13.6538 TRACE - - < Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/nav/ul/li[2]/a)/descendant-or-self::a" in ChromeDriver (0.038s) >> Element { Id=aa7b5009-4e8c-4ee6-bd6c-0b7e9810ae48 }
+2021-11-28 22:49:13.6542 TRACE - - > Click element { Id=aa7b5009-4e8c-4ee6-bd6c-0b7e9810ae48 }
+2021-11-28 22:49:14.3465 TRACE - - < Click element { Id=aa7b5009-4e8c-4ee6-bd6c-0b7e9810ae48 } (0.692s)
+2021-11-28 22:49:14.3469 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "My Membership" link (0.732s)
+2021-11-28 22:49:14.3472  INFO < Click "My Membership" link (0.733s)
+2021-11-28 22:49:14.3477  INFO > Assert: "Valid My Member Ship" <h2> heading content should equal "My Membership"
+2021-11-28 22:49:14.3482 TRACE - > Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid My Member Ship" <h2> heading
+2021-11-28 22:49:14.3491 TRACE - - > Find visible element by XPath "(//*[@id='my-content']/h2)/descendant-or-self::h2" in ChromeDriver
+2021-11-28 22:49:14.6716 TRACE - - < Find visible element by XPath "(//*[@id='my-content']/h2)/descendant-or-self::h2" in ChromeDriver (0.322s) >> Element { Id=5658616e-1293-4ce2-b5e2-7ca3ad4bfcbc }
+2021-11-28 22:49:14.6989 TRACE - < Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid My Member Ship" <h2> heading (0.350s) >> "My Membership"
+2021-11-28 22:49:14.6994  INFO < Assert: "Valid My Member Ship" <h2> heading content should equal "My Membership" (0.351s)
+2021-11-28 22:49:14.6999  INFO > Click "Favorites" link
+2021-11-28 22:49:14.7004 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Favorites" link
+2021-11-28 22:49:14.7014 TRACE - - > Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/nav/ul/li[3]/a)/descendant-or-self::a" in ChromeDriver
+2021-11-28 22:49:14.7457 TRACE - - < Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/nav/ul/li[3]/a)/descendant-or-self::a" in ChromeDriver (0.044s) >> Element { Id=6db77544-225f-44f4-bebb-250f86e4035c }
+2021-11-28 22:49:14.7462 TRACE - - > Click element { Id=6db77544-225f-44f4-bebb-250f86e4035c }
+2021-11-28 22:49:15.4130 TRACE - - < Click element { Id=6db77544-225f-44f4-bebb-250f86e4035c } (0.666s)
+2021-11-28 22:49:15.4134 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Favorites" link (0.713s)
+2021-11-28 22:49:15.4138  INFO < Click "Favorites" link (0.713s)
+2021-11-28 22:49:15.4147  INFO > Assert: "Valid Favorites" <h2> heading content should equal "Favorites"
+2021-11-28 22:49:15.4157 TRACE - > Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid Favorites" <h2> heading
+2021-11-28 22:49:15.4171 TRACE - - > Find visible element by XPath "(//*[@id='my-content']/h2)/descendant-or-self::h2" in ChromeDriver
+2021-11-28 22:49:15.7012 TRACE - - < Find visible element by XPath "(//*[@id='my-content']/h2)/descendant-or-self::h2" in ChromeDriver (0.284s) >> Element { Id=cce6d8fd-ac59-419c-a525-0497472ab572 }
+2021-11-28 22:49:15.7319 TRACE - < Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid Favorites" <h2> heading (0.316s) >> "Favorites"
+2021-11-28 22:49:15.7323  INFO < Assert: "Valid Favorites" <h2> heading content should equal "Favorites" (0.317s)
+2021-11-28 22:49:15.7327  INFO > Click "Settings" link
+2021-11-28 22:49:15.7331 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Settings" link
+2021-11-28 22:49:15.7338 TRACE - - > Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/nav/ul/li[4]/a)/descendant-or-self::a" in ChromeDriver
+2021-11-28 22:49:15.7738 TRACE - - < Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/nav/ul/li[4]/a)/descendant-or-self::a" in ChromeDriver (0.039s) >> Element { Id=dfa414e6-9129-43df-afe9-da4e87a78bd2 }
+2021-11-28 22:49:15.7742 TRACE - - > Click element { Id=dfa414e6-9129-43df-afe9-da4e87a78bd2 }
+2021-11-28 22:49:17.9218 TRACE - - < Click element { Id=dfa414e6-9129-43df-afe9-da4e87a78bd2 } (2.147s)
+2021-11-28 22:49:17.9222 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Settings" link (2.189s)
+2021-11-28 22:49:17.9224  INFO < Click "Settings" link (2.189s)
+2021-11-28 22:49:17.9227  INFO > Assert: "Valid Settings" <h2> heading content should equal "Settings"
+2021-11-28 22:49:17.9230 TRACE - > Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid Settings" <h2> heading
+2021-11-28 22:49:17.9237 TRACE - - > Find visible element by XPath "(//h2[contains(text(),'Settings')])/descendant-or-self::h2" in ChromeDriver
+2021-11-28 22:49:17.9732 TRACE - - < Find visible element by XPath "(//h2[contains(text(),'Settings')])/descendant-or-self::h2" in ChromeDriver (0.049s) >> Element { Id=590777a2-9df5-4ebd-be53-b0c83634428e }
+2021-11-28 22:49:17.9957 TRACE - < Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid Settings" <h2> heading (0.072s) >> "Settings"
+2021-11-28 22:49:17.9961  INFO < Assert: "Valid Settings" <h2> heading content should equal "Settings" (0.073s)
+2021-11-28 22:49:17.9965  INFO > Assert: "Valid Jobs" <h4> heading content should equal "Jobs"
+2021-11-28 22:49:17.9971 TRACE - > Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid Jobs" <h4> heading
+2021-11-28 22:49:17.9979 TRACE - - > Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/nav/ul/div/h4)/descendant-or-self::h4" in ChromeDriver
+2021-11-28 22:49:18.0319 TRACE - - < Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/nav/ul/div/h4)/descendant-or-self::h4" in ChromeDriver (0.034s) >> Element { Id=19cebc06-c555-4961-b2f3-c5aacceff25b }
+2021-11-28 22:49:18.0526 TRACE - < Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid Jobs" <h4> heading (0.055s) >> "Jobs"
+2021-11-28 22:49:18.0530  INFO < Assert: "Valid Jobs" <h4> heading content should equal "Jobs" (0.056s)
+2021-11-28 22:49:18.0532  INFO > Click "My Profile" link
+2021-11-28 22:49:18.0536 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "My Profile" link
+2021-11-28 22:49:18.0543 TRACE - - > Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/nav/ul/li[5]/a)/descendant-or-self::a" in ChromeDriver
+2021-11-28 22:49:18.0948 TRACE - - < Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/nav/ul/li[5]/a)/descendant-or-self::a" in ChromeDriver (0.040s) >> Element { Id=b8ffd5dd-1b1c-4039-a4e7-9b2eb3a907ed }
+2021-11-28 22:49:18.0953 TRACE - - > Click element { Id=b8ffd5dd-1b1c-4039-a4e7-9b2eb3a907ed }
+2021-11-28 22:49:18.6530 TRACE - - < Click element { Id=b8ffd5dd-1b1c-4039-a4e7-9b2eb3a907ed } (0.557s)
+2021-11-28 22:49:18.6534 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "My Profile" link (0.599s)
+2021-11-28 22:49:18.6537  INFO < Click "My Profile" link (0.600s)
+2021-11-28 22:49:18.6542  INFO > Assert: "Valid My Profile" <h1> heading content should equal "My Profile"
+2021-11-28 22:49:18.6548 TRACE - > Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid My Profile" <h1> heading
+2021-11-28 22:49:18.6556 TRACE - - > Find visible element by XPath "(//*[@id='my-content']/div[1]/div[1]/h1)/descendant-or-self::h1" in ChromeDriver
+2021-11-28 22:49:18.8697 TRACE - - < Find visible element by XPath "(//*[@id='my-content']/div[1]/div[1]/h1)/descendant-or-self::h1" in ChromeDriver (0.214s) >> Element { Id=18de6887-4112-4cc4-8c9a-94e33c41cf88 }
+2021-11-28 22:49:18.8968 TRACE - < Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid My Profile" <h1> heading (0.242s) >> "My Profile"
+2021-11-28 22:49:18.8974  INFO < Assert: "Valid My Profile" <h1> heading content should equal "My Profile" (0.243s)
+2021-11-28 22:49:18.8978  INFO > Click "My Account Btn" link
+2021-11-28 22:49:18.8982 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "My Account Btn" link
+2021-11-28 22:49:18.8990 TRACE - - > Find visible element by XPath "(/html/body/div[1]/div/div[1]/li[1]/a[2])/descendant-or-self::a" in ChromeDriver
+2021-11-28 22:49:18.9424 TRACE - - < Find visible element by XPath "(/html/body/div[1]/div/div[1]/li[1]/a[2])/descendant-or-self::a" in ChromeDriver (0.043s) >> Element { Id=dc3cd73b-2825-48a1-9e50-5abd62b31839 }
+2021-11-28 22:49:18.9429 TRACE - - > Click element { Id=dc3cd73b-2825-48a1-9e50-5abd62b31839 }
+2021-11-28 22:49:20.2996 TRACE - - < Click element { Id=dc3cd73b-2825-48a1-9e50-5abd62b31839 } (1.356s)
+2021-11-28 22:49:20.3000 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "My Account Btn" link (1.401s)
+2021-11-28 22:49:20.3002  INFO < Click "My Account Btn" link (1.402s)
+2021-11-28 22:49:20.3005  INFO > Click "Profile Database" link
+2021-11-28 22:49:20.3008 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Profile Database" link
+2021-11-28 22:49:20.3034 TRACE - - > Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/nav/ul/li[6]/a)/descendant-or-self::a" in ChromeDriver
+2021-11-28 22:49:20.3477 TRACE - - < Find visible element by XPath "(/html/body/div[2]/div/div/div/div/div[1]/nav/ul/li[6]/a)/descendant-or-self::a" in ChromeDriver (0.044s) >> Element { Id=81639c67-ab68-4065-8fad-bcfa75cf64bf }
+2021-11-28 22:49:20.3481 TRACE - - > Click element { Id=81639c67-ab68-4065-8fad-bcfa75cf64bf }
+2021-11-28 22:49:22.8075 TRACE - - < Click element { Id=81639c67-ab68-4065-8fad-bcfa75cf64bf } (2.459s)
+2021-11-28 22:49:22.8079 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Profile Database" link (2.507s)
+2021-11-28 22:49:22.8081  INFO < Click "Profile Database" link (2.507s)
+2021-11-28 22:49:22.8086  INFO > Assert: "Valid Profile Database" <h2> heading content should equal "Profile database"
+2021-11-28 22:49:22.8093 TRACE - > Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid Profile Database" <h2> heading
+2021-11-28 22:49:22.8101 TRACE - - > Find visible element by XPath "(//*[@id='app-container']/div/div/div/div[1]/div/div[1]/h2)/descendant-or-self::h2" in ChromeDriver
+2021-11-28 22:49:23.2113 TRACE - - < Find visible element by XPath "(//*[@id='app-container']/div/div/div/div[1]/div/div[1]/h2)/descendant-or-self::h2" in ChromeDriver (0.401s) >> Element { Id=8eba4167-b230-48f3-81c4-adee9fce09b6 }
+2021-11-28 22:49:23.2396 TRACE - < Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Valid Profile Database" <h2> heading (0.430s) >> "Profile database"
+2021-11-28 22:49:23.2401  INFO < Assert: "Valid Profile Database" <h2> heading content should equal "Profile database" (0.431s)
+2021-11-28 22:49:23.2432  INFO > Clean up AtataContext
+2021-11-28 22:49:23.2670 TRACE - > Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent
+2021-11-28 22:49:23.2694 TRACE - < Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent (0.002s)
+2021-11-28 22:49:23.9958  INFO < Clean up AtataContext (0.752s)
+2021-11-28 22:49:23.9966  INFO Finished test (1m 8.309s)
+2021-11-28 22:49:23.9971  INFO Pure test execution time: 1m 2.951s

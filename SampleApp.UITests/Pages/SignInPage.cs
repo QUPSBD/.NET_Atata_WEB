@@ -1,6 +1,7 @@
 ﻿using Atata;
+using SampleApp.UITests;
 
-namespace SampleApp.UITests
+namespace SampleApp.UITests.Pages
 {
     using _ = SignInPage;
 
