@@ -33,7 +33,7 @@ namespace SampleApp.UITests.Pages
         [FindByClass(Locators.myAccountClass)]
         public Link<MyAccount, _> MyAccount { get; private set; }
 
-        [FindByXPath("//*[@id='app - wrapper']/div[1]/div[2]/div/nav/div/ul[2]/li[1]/div/a")]
+        [FindByClass("gtm-chat-click header-link--woAbP")]
         public Link<ChatPage, _> Chat { get; private set; }
 
         public H1<_> ChatHeader { get; private set; }

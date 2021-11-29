@@ -1,5 +1,5 @@
 ﻿using Atata;
-using Atata.ExtentReports;
+
 using NUnit.Framework;
 
 
@@ -19,7 +19,9 @@ namespace SampleApp.UITests.Tests
                 .UseAllNUnitFeatures()
                 //extentreportsconfigurations
                 .AddLogConsumer(new ExtentLogConsumer())
-                .AddScreenshotConsumer(new ExtentScreenshotConsumer());
+                .AddScreenshotFileSaving()
+                    .WithArtifactsFolderPath()
+                .EventSubscriptions.Add(new ExtentScreenshotFileEventHandler());
 
             //.Attributes.Global.Add(new VerifyTitleSettingsAttribute { Format = "{0} - Atata Sample App" });
 

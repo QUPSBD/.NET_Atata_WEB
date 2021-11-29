@@ -30,7 +30,6 @@ namespace SampleApp.UITests.Tests
                 .ScrollDown()
                 .PhoneNumber.Set(Locators.phoneNumber).Wait(2)
                 .Add.Click();
-
         }
     }
 }

@@ -1,0 +1,2636 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>UI Tests Report</title>
+  <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@3da944e596e81f10ac6c1042c792af8a5a741023/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@3da944e596e81f10ac6c1042c792af8a5a741023/commons/img/logo.png">
+  <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@8539670db814bf19a0ddbe9a6d19058aea0cf981/spark/css/spark-style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa ">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary"></span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">11/29/2021 10:02:21 PM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row test-view">
+    <div class="test-list">
+        <div class="test-list-tools">
+            <ul class="tools pull-left">
+                <li>
+                    <a href="">
+                        <span class="font-size-14">Tests</span>
+                    </a>
+                </li> 
+            </ul>
+            <ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>																																				<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+								            </ul>
+        </div>
+        <div class="test-list-wrapper scrollable">
+            <ul class="test-list-item">
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="1"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">CategoriesTest</p> 
+								<p class="duration text-sm">0h:3m:24s+738ms</p> 
+								<span class="datetime">22:02:21 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">CategoriesTest</h5>
+										<span class='badge badge-success'>11/29/2021 10:02:21 PM</span>
+										<span class='badge badge-danger'>11/29/2021 10:05:46 PM</span>
+										<span class='badge badge-default'>0h:3m:24s+738ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">Categories</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:21</td>
+				<td>
+Starting test: SampleApp.UITests.Tests.CategoriesTest.Categories									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:21</td>
+				<td>
+&gt; Set up AtataContext									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:21</td>
+				<td>
+- Set: BaseUrl=https://bikroy.com/									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:21</td>
+				<td>
+- Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:21</td>
+				<td>
+- Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:21</td>
+				<td>
+- Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:21</td>
+				<td>
+- Set: Culture=en-US									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:21</td>
+				<td>
+- Set: Artifacts=C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\bin\Debug\net5.0\artifacts\2021-11-29 22_02_21\CategoriesTest\Categories									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:21</td>
+				<td>
+- Set: DriverService=ChromeDriverService on port 56566									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:23</td>
+				<td>
+- Set: Driver=ChromeDriver (alias=chrome)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:23</td>
+				<td>
+&lt; Set up AtataContext (1.504s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:23</td>
+				<td>
+Go to &quot;Home&quot; page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:23</td>
+				<td>
+Go to URL &quot;https://bikroy.com/&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:29</td>
+				<td>
+Take screenshot #01									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:29</td>
+				<td>
+Screenshot saved to file &quot;C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\bin\Debug\net5.0\artifacts\2021-11-29 22_02_21\CategoriesTest\Categories\01 - Home page.png&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:29</td>
+				<td>
+&gt; Execute event handler ExtentScreenshotFileEventHandler on ScreenshotFileSavedEvent									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:29</td>
+				<td>
+					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='CategoriesTest\Categories\01 - Home page.png' src='CategoriesTest\Categories\01 - Home page.png' data-src='CategoriesTest\Categories\01 - Home page.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:29</td>
+				<td>
+&lt; Execute event handler ExtentScreenshotFileEventHandler on ScreenshotFileSavedEvent (0.005s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:29</td>
+				<td>
+&gt; Click &quot;Sign In&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:29</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Sign In&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:29</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; title--1NHWk &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-login-click &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:29</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; title--1NHWk &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-login-click &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.136s) &gt;&gt; Element { Id=3c35717d-dede-4a0f-9713-75a729c09c4b }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:29</td>
+				<td>
+- - &gt; Click element { Id=3c35717d-dede-4a0f-9713-75a729c09c4b }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:30</td>
+				<td>
+- - &lt; Click element { Id=3c35717d-dede-4a0f-9713-75a729c09c4b } (0.309s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:30</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Sign In&quot; link (0.494s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:30</td>
+				<td>
+&lt; Click &quot;Sign In&quot; link (0.498s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:30</td>
+				<td>
+&gt; Click &quot;Continue with Email&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:30</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Continue with Email&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:30</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(/html/body/div[3]/div/div/div/div[2]/div[2]/div/div[3]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(/html/body/div[3]/div/div/div/div[2]/div[2]/div/div[3]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver (1.049s) &gt;&gt; Element { Id=7608e190-da50-4a45-b824-5e69b04df484 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &gt; Click element { Id=7608e190-da50-4a45-b824-5e69b04df484 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &lt; Click element { Id=7608e190-da50-4a45-b824-5e69b04df484 } (0.106s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Continue with Email&quot; button (1.162s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:31</td>
+				<td>
+&lt; Click &quot;Continue with Email&quot; button (1.164s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:31</td>
+				<td>
+&gt; Set &quot;ashiq10@gmail.com&quot; to &quot;Email&quot; email input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- &gt; Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against &quot;Email&quot; email input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &gt; Execute behavior ClearsValueUsingClearMethodAttribute against &quot;Email&quot; email input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - - &gt; Find visible element by XPath &quot;.//*[normalize-space(@id) = &#39;input_email&#39;]/descendant-or-self::input[@type=&#39;email&#39;]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - - &lt; Find visible element by XPath &quot;.//*[normalize-space(@id) = &#39;input_email&#39;]/descendant-or-self::input[@type=&#39;email&#39;]&quot; in ChromeDriver (0.048s) &gt;&gt; Element { Id=a9721cb9-a035-45ee-b4e0-06560d0f6231 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - - &gt; Clear element { Id=a9721cb9-a035-45ee-b4e0-06560d0f6231 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - - &lt; Clear element { Id=a9721cb9-a035-45ee-b4e0-06560d0f6231 } (0.061s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &lt; Execute behavior ClearsValueUsingClearMethodAttribute against &quot;Email&quot; email input (0.122s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &gt; Execute behavior TypesTextUsingSendKeysAttribute against &quot;Email&quot; email input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - - &gt; Send keys &quot;ashiq10@gmail.com&quot; to element { Id=a9721cb9-a035-45ee-b4e0-06560d0f6231 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - - &lt; Send keys &quot;ashiq10@gmail.com&quot; to element { Id=a9721cb9-a035-45ee-b4e0-06560d0f6231 } (0.171s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &lt; Execute behavior TypesTextUsingSendKeysAttribute against &quot;Email&quot; email input (0.176s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- &lt; Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against &quot;Email&quot; email input (0.304s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:31</td>
+				<td>
+&lt; Set &quot;ashiq10@gmail.com&quot; to &quot;Email&quot; email input (0.309s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:31</td>
+				<td>
+&gt; Set &quot;123456789As@&quot; to &quot;Password&quot; password input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- &gt; Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against &quot;Password&quot; password input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &gt; Execute behavior ClearsValueUsingClearMethodAttribute against &quot;Password&quot; password input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - - &gt; Find visible element by XPath &quot;.//*[normalize-space(@id) = &#39;input_password&#39;]/descendant-or-self::input[@type=&#39;password&#39;]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - - &lt; Find visible element by XPath &quot;.//*[normalize-space(@id) = &#39;input_password&#39;]/descendant-or-self::input[@type=&#39;password&#39;]&quot; in ChromeDriver (0.052s) &gt;&gt; Element { Id=6f5e5af0-68bd-49cb-98a0-f8fae4935b6d }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - - &gt; Clear element { Id=6f5e5af0-68bd-49cb-98a0-f8fae4935b6d }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - - &lt; Clear element { Id=6f5e5af0-68bd-49cb-98a0-f8fae4935b6d } (0.060s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &lt; Execute behavior ClearsValueUsingClearMethodAttribute against &quot;Password&quot; password input (0.115s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &gt; Execute behavior TypesTextUsingSendKeysAttribute against &quot;Password&quot; password input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - - &gt; Send keys &quot;123456789As@&quot; to element { Id=6f5e5af0-68bd-49cb-98a0-f8fae4935b6d }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - - &lt; Send keys &quot;123456789As@&quot; to element { Id=6f5e5af0-68bd-49cb-98a0-f8fae4935b6d } (0.140s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &lt; Execute behavior TypesTextUsingSendKeysAttribute against &quot;Password&quot; password input (0.141s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- &lt; Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against &quot;Password&quot; password input (0.258s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:31</td>
+				<td>
+&lt; Set &quot;123456789As@&quot; to &quot;Password&quot; password input (0.259s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:31</td>
+				<td>
+&gt; Click &quot;Login Btn&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Login Btn&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(/html/body/div[3]/div/div/div/div[2]/div[2]/div/form/div[2]/div/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(/html/body/div[3]/div/div/div/div[2]/div[2]/div/form/div[2]/div/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver (0.041s) &gt;&gt; Element { Id=d957ef39-9c2c-453d-9b97-587bd47ce105 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:31</td>
+				<td>
+- - &gt; Click element { Id=d957ef39-9c2c-453d-9b97-587bd47ce105 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:32</td>
+				<td>
+- - &lt; Click element { Id=d957ef39-9c2c-453d-9b97-587bd47ce105 } (0.141s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:32</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Login Btn&quot; button (0.186s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:32</td>
+				<td>
+&lt; Click &quot;Login Btn&quot; button (0.187s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:35</td>
+				<td>
+Go to &quot;Categories&quot; page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:37</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;1st&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:37</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;1st&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:37</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:37</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (0.060s) &gt;&gt; Element { Id=a53c706a-e6e0-4748-b6a2-81f6e1bd43d9 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:37</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[1]&quot; in Element { Id=a53c706a-e6e0-4748-b6a2-81f6e1bd43d9 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:37</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[1]&quot; in Element { Id=a53c706a-e6e0-4748-b6a2-81f6e1bd43d9 } (0.039s) &gt;&gt; Element { Id=f7eac69f-3cac-46d5-82da-b9f6110cdc36 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:37</td>
+				<td>
+- - &gt; Click element { Id=f7eac69f-3cac-46d5-82da-b9f6110cdc36 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:43</td>
+				<td>
+- - &lt; Click element { Id=f7eac69f-3cac-46d5-82da-b9f6110cdc36 } (5.756s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:43</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;1st&quot; list item (5.864s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:43</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;1st&quot; list item (5.865s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:45</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Mobiles&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:45</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:45</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:45</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (0.076s) &gt;&gt; Element { Id=531d16f6-3a56-4ebd-95cb-c0012165c87a }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:45</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (0.114s) &gt;&gt; &quot;Mobiles&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:02:45</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Mobiles&quot; (0.132s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:45</td>
+				<td>
+&gt; Click &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:45</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:45</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:45</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.053s) &gt;&gt; Element { Id=2a95dca6-cc7e-42d2-9036-69293d9a40d6 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:45</td>
+				<td>
+- - &gt; Click element { Id=2a95dca6-cc7e-42d2-9036-69293d9a40d6 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:46</td>
+				<td>
+- - &lt; Click element { Id=2a95dca6-cc7e-42d2-9036-69293d9a40d6 } (0.719s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:46</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link (0.774s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:46</td>
+				<td>
+&lt; Click &quot;Homepage Btn&quot; link (0.775s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:48</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;2nd&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:48</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;2nd&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:48</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:51</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (3.360s) &gt;&gt; Element { Id=b9980dba-1177-4789-8447-370bbc78b910 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:51</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[2]&quot; in Element { Id=b9980dba-1177-4789-8447-370bbc78b910 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:51</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[2]&quot; in Element { Id=b9980dba-1177-4789-8447-370bbc78b910 } (0.037s) &gt;&gt; Element { Id=b3e54a8a-d030-453d-acf2-64728ce70937 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:51</td>
+				<td>
+- - &gt; Click element { Id=b3e54a8a-d030-453d-acf2-64728ce70937 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:59</td>
+				<td>
+- - &lt; Click element { Id=b3e54a8a-d030-453d-acf2-64728ce70937 } (8.428s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:02:59</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;2nd&quot; list item (11.830s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:02:59</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;2nd&quot; list item (11.832s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:01</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Electronics&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:01</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:01</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:04</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (2.172s) &gt;&gt; Element { Id=a688a006-5608-4b83-bac3-0b73dbc04b8e }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:04</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (2.278s) &gt;&gt; &quot;Electronics&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:03:04</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Electronics&quot; (2.281s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:04</td>
+				<td>
+&gt; Click &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:04</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:04</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:04</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.083s) &gt;&gt; Element { Id=af913d31-53d7-4f4e-9ade-270474c99415 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:04</td>
+				<td>
+- - &gt; Click element { Id=af913d31-53d7-4f4e-9ade-270474c99415 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:10</td>
+				<td>
+- - &lt; Click element { Id=af913d31-53d7-4f4e-9ade-270474c99415 } (5.949s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:10</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link (6.038s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:10</td>
+				<td>
+&lt; Click &quot;Homepage Btn&quot; link (6.040s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:12</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;3rd&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:12</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;3rd&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:12</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:13</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (1.479s) &gt;&gt; Element { Id=b71e8633-ebe1-4bf8-bc42-7b035c5b555c }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:13</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[3]&quot; in Element { Id=b71e8633-ebe1-4bf8-bc42-7b035c5b555c }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:13</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[3]&quot; in Element { Id=b71e8633-ebe1-4bf8-bc42-7b035c5b555c } (0.093s) &gt;&gt; Element { Id=71110440-3c5b-4011-b957-4f51850d2f6c }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:13</td>
+				<td>
+- - &gt; Click element { Id=71110440-3c5b-4011-b957-4f51850d2f6c }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:22</td>
+				<td>
+- - &lt; Click element { Id=71110440-3c5b-4011-b957-4f51850d2f6c } (8.691s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:22</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;3rd&quot; list item (10.270s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:22</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;3rd&quot; list item (10.272s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:24</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Home &amp; Living&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:24</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:24</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:24</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (0.416s) &gt;&gt; Element { Id=3ff6c4f5-0726-49cd-91e7-9fd57da7090f }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:24</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (0.497s) &gt;&gt; &quot;Home &amp; Living&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:03:24</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Home &amp; Living&quot; (0.499s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:24</td>
+				<td>
+&gt; Click &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:24</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:25</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:25</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.085s) &gt;&gt; Element { Id=a607da0b-cf66-48a5-8209-b1754d3b20ac }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:25</td>
+				<td>
+- - &gt; Click element { Id=a607da0b-cf66-48a5-8209-b1754d3b20ac }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:30</td>
+				<td>
+- - &lt; Click element { Id=a607da0b-cf66-48a5-8209-b1754d3b20ac } (5.678s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:30</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link (5.768s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:30</td>
+				<td>
+&lt; Click &quot;Homepage Btn&quot; link (5.769s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:32</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;4th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:32</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;4th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:32</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:32</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (0.127s) &gt;&gt; Element { Id=5617b11f-ede3-4dab-9ce8-ccba1f060a0f }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:32</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[4]&quot; in Element { Id=5617b11f-ede3-4dab-9ce8-ccba1f060a0f }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:33</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[4]&quot; in Element { Id=5617b11f-ede3-4dab-9ce8-ccba1f060a0f } (0.085s) &gt;&gt; Element { Id=033986d6-9d94-44f3-9a2f-12b600829a8b }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:33</td>
+				<td>
+- - &gt; Click element { Id=033986d6-9d94-44f3-9a2f-12b600829a8b }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:43</td>
+				<td>
+- - &lt; Click element { Id=033986d6-9d94-44f3-9a2f-12b600829a8b } (10.073s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:43</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;4th&quot; list item (10.294s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:43</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;4th&quot; list item (10.297s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:45</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Vehicles&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:45</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:45</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:45</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (0.093s) &gt;&gt; Element { Id=5b45e7c2-608c-4a44-bb74-490ad21a80e1 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:45</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (0.149s) &gt;&gt; &quot;Vehicles&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:03:45</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Vehicles&quot; (0.152s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:45</td>
+				<td>
+&gt; Click &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:45</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:45</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:45</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.081s) &gt;&gt; Element { Id=a5457039-dc14-4c42-925f-20cb149bacd0 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:45</td>
+				<td>
+- - &gt; Click element { Id=a5457039-dc14-4c42-925f-20cb149bacd0 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:51</td>
+				<td>
+- - &lt; Click element { Id=a5457039-dc14-4c42-925f-20cb149bacd0 } (6.057s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:51</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link (6.144s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:51</td>
+				<td>
+&lt; Click &quot;Homepage Btn&quot; link (6.146s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:03:53</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;5th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:53</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;5th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:53</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:53</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (0.132s) &gt;&gt; Element { Id=d9850d95-d917-4284-a9ee-4783c5f2f3c8 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:53</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[5]&quot; in Element { Id=d9850d95-d917-4284-a9ee-4783c5f2f3c8 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:53</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[5]&quot; in Element { Id=d9850d95-d917-4284-a9ee-4783c5f2f3c8 } (0.082s) &gt;&gt; Element { Id=924c698b-e0fe-4568-84be-8f767213ea25 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:03:53</td>
+				<td>
+- - &gt; Click element { Id=924c698b-e0fe-4568-84be-8f767213ea25 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:01</td>
+				<td>
+- - &lt; Click element { Id=924c698b-e0fe-4568-84be-8f767213ea25 } (8.235s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:01</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;5th&quot; list item (8.457s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:01</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;5th&quot; list item (8.459s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:03</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Property&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:03</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:03</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:04</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (0.791s) &gt;&gt; Element { Id=7488205d-84fc-4b85-be5b-4c1f3fe57ba0 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:04</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (0.861s) &gt;&gt; &quot;Property&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:04:04</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Property&quot; (0.865s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:04</td>
+				<td>
+&gt; Click &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:04</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:04</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:04</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.075s) &gt;&gt; Element { Id=9bc4fb52-1efe-442b-9664-e51f790ea1bf }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:04</td>
+				<td>
+- - &gt; Click element { Id=9bc4fb52-1efe-442b-9664-e51f790ea1bf }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:10</td>
+				<td>
+- - &lt; Click element { Id=9bc4fb52-1efe-442b-9664-e51f790ea1bf } (5.852s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:10</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link (5.931s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:10</td>
+				<td>
+&lt; Click &quot;Homepage Btn&quot; link (5.933s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:12</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;6th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:12</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;6th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:12</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:13</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (0.803s) &gt;&gt; Element { Id=c28ddd38-9f76-49e5-82a0-d7ccccf9ccad }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:13</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[6]&quot; in Element { Id=c28ddd38-9f76-49e5-82a0-d7ccccf9ccad }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:13</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[6]&quot; in Element { Id=c28ddd38-9f76-49e5-82a0-d7ccccf9ccad } (0.097s) &gt;&gt; Element { Id=98613514-3435-4a1b-a838-cbc40a4f3f5b }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:13</td>
+				<td>
+- - &gt; Click element { Id=98613514-3435-4a1b-a838-cbc40a4f3f5b }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:21</td>
+				<td>
+- - &lt; Click element { Id=98613514-3435-4a1b-a838-cbc40a4f3f5b } (8.176s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:21</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;6th&quot; list item (9.084s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:21</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;6th&quot; list item (9.087s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:23</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Pets &amp; Animals&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:23</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:23</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:23</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (0.168s) &gt;&gt; Element { Id=23fb2b83-ebf9-4f1a-bd07-bfbe8ea6dad2 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:24</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (0.228s) &gt;&gt; &quot;Pets &amp; Animals&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:04:24</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Pets &amp; Animals&quot; (0.231s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:24</td>
+				<td>
+&gt; Click &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:24</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:24</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:24</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.072s) &gt;&gt; Element { Id=1614fd4b-a00f-4713-b2b7-8202ee73d035 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:24</td>
+				<td>
+- - &gt; Click element { Id=1614fd4b-a00f-4713-b2b7-8202ee73d035 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:27</td>
+				<td>
+- - &lt; Click element { Id=1614fd4b-a00f-4713-b2b7-8202ee73d035 } (3.407s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:27</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link (3.484s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:27</td>
+				<td>
+&lt; Click &quot;Homepage Btn&quot; link (3.486s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:29</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;7th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:29</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;7th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:29</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:29</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (0.052s) &gt;&gt; Element { Id=bffc3210-9a41-40ba-90fd-f5e06b35eb2c }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:29</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[7]&quot; in Element { Id=bffc3210-9a41-40ba-90fd-f5e06b35eb2c }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:29</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[7]&quot; in Element { Id=bffc3210-9a41-40ba-90fd-f5e06b35eb2c } (0.046s) &gt;&gt; Element { Id=f4fea99b-5416-426c-b34f-b4c0c06880b4 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:29</td>
+				<td>
+- - &gt; Click element { Id=f4fea99b-5416-426c-b34f-b4c0c06880b4 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:33</td>
+				<td>
+- - &lt; Click element { Id=f4fea99b-5416-426c-b34f-b4c0c06880b4 } (4.332s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:33</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;7th&quot; list item (4.435s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:33</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;7th&quot; list item (4.436s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:35</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Fashion &amp; Beauty&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:35</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:35</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:36</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (0.038s) &gt;&gt; Element { Id=4eece42d-e871-4488-814c-a2eac690723f }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:36</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (0.061s) &gt;&gt; &quot;Fashion &amp; Beauty&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:04:36</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Fashion &amp; Beauty&quot; (0.063s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:36</td>
+				<td>
+&gt; Click &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:36</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:36</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:36</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.028s) &gt;&gt; Element { Id=aad94e67-b6dd-4291-bc4d-c34b8134ee25 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:36</td>
+				<td>
+- - &gt; Click element { Id=aad94e67-b6dd-4291-bc4d-c34b8134ee25 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:39</td>
+				<td>
+- - &lt; Click element { Id=aad94e67-b6dd-4291-bc4d-c34b8134ee25 } (2.973s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:39</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link (3.003s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:39</td>
+				<td>
+&lt; Click &quot;Homepage Btn&quot; link (3.004s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:41</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;8th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:41</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;8th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:41</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:41</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (0.038s) &gt;&gt; Element { Id=79f4d697-e574-482d-985f-20b7fcf279ef }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:41</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[8]&quot; in Element { Id=79f4d697-e574-482d-985f-20b7fcf279ef }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:41</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[8]&quot; in Element { Id=79f4d697-e574-482d-985f-20b7fcf279ef } (0.033s) &gt;&gt; Element { Id=5ee12195-72c6-4537-aaf5-1b0a4aeace05 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:41</td>
+				<td>
+- - &gt; Click element { Id=5ee12195-72c6-4537-aaf5-1b0a4aeace05 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:46</td>
+				<td>
+- - &lt; Click element { Id=5ee12195-72c6-4537-aaf5-1b0a4aeace05 } (5.791s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:46</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;8th&quot; list item (5.867s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:46</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;8th&quot; list item (5.868s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:48</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Hobbies, Sports &amp; Kids&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:48</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:48</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:48</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (0.039s) &gt;&gt; Element { Id=375f6849-be10-416d-a135-bf4d26c8856b }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:49</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (0.065s) &gt;&gt; &quot;Hobbies, Sports &amp; Kids&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:04:49</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Hobbies, Sports &amp; Kids&quot; (0.067s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:49</td>
+				<td>
+&gt; Click &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:49</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:49</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:49</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.030s) &gt;&gt; Element { Id=7f8743f0-dc8d-481b-9401-43150bba1228 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:49</td>
+				<td>
+- - &gt; Click element { Id=7f8743f0-dc8d-481b-9401-43150bba1228 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:52</td>
+				<td>
+- - &lt; Click element { Id=7f8743f0-dc8d-481b-9401-43150bba1228 } (3.178s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:52</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link (3.211s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:52</td>
+				<td>
+&lt; Click &quot;Homepage Btn&quot; link (3.212s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:54</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;9th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:54</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;9th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:54</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:54</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (0.046s) &gt;&gt; Element { Id=e67cb1c0-019f-45c0-8241-80394f7001dc }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:54</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[9]&quot; in Element { Id=e67cb1c0-019f-45c0-8241-80394f7001dc }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:54</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[9]&quot; in Element { Id=e67cb1c0-019f-45c0-8241-80394f7001dc } (0.034s) &gt;&gt; Element { Id=34e0da94-80f8-48d1-97be-1d727376871c }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:54</td>
+				<td>
+- - &gt; Click element { Id=34e0da94-80f8-48d1-97be-1d727376871c }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:58</td>
+				<td>
+- - &lt; Click element { Id=34e0da94-80f8-48d1-97be-1d727376871c } (3.959s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:04:58</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;9th&quot; list item (4.044s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:04:58</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;9th&quot; list item (4.045s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:00</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Business &amp; Industry&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:00</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:00</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:00</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (0.052s) &gt;&gt; Element { Id=9d1661cd-5860-46d4-81b3-b7af61b90277 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:00</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (0.078s) &gt;&gt; &quot;Business &amp; Industry&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:05:00</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Business &amp; Industry&quot; (0.080s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:00</td>
+				<td>
+&gt; Click &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:00</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:00</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:00</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.033s) &gt;&gt; Element { Id=ba90ef6f-0bff-4c09-815d-2d6692839e92 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:00</td>
+				<td>
+- - &gt; Click element { Id=ba90ef6f-0bff-4c09-815d-2d6692839e92 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:04</td>
+				<td>
+- - &lt; Click element { Id=ba90ef6f-0bff-4c09-815d-2d6692839e92 } (4.259s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:04</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link (4.295s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:04</td>
+				<td>
+&lt; Click &quot;Homepage Btn&quot; link (4.296s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:06</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;10th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:06</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;10th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:06</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:06</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (0.045s) &gt;&gt; Element { Id=cc8e5e68-1d78-465f-8328-b75e94de6865 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:06</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[10]&quot; in Element { Id=cc8e5e68-1d78-465f-8328-b75e94de6865 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:06</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[10]&quot; in Element { Id=cc8e5e68-1d78-465f-8328-b75e94de6865 } (0.034s) &gt;&gt; Element { Id=51ac4a72-a117-4606-96ac-436304991489 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:06</td>
+				<td>
+- - &gt; Click element { Id=51ac4a72-a117-4606-96ac-436304991489 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:10</td>
+				<td>
+- - &lt; Click element { Id=51ac4a72-a117-4606-96ac-436304991489 } (3.847s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:10</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;10th&quot; list item (3.931s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:10</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;10th&quot; list item (3.932s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:12</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Education&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:12</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:12</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:12</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (0.065s) &gt;&gt; Element { Id=6c79419e-57b4-4a97-b3ae-fb15eceeb84c }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:12</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (0.088s) &gt;&gt; &quot;Education&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:05:12</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Education&quot; (0.090s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:12</td>
+				<td>
+&gt; Click &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:12</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:12</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:12</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.041s) &gt;&gt; Element { Id=40615bd5-c1e7-492b-9437-753c10eb7d25 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:12</td>
+				<td>
+- - &gt; Click element { Id=40615bd5-c1e7-492b-9437-753c10eb7d25 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:15</td>
+				<td>
+- - &lt; Click element { Id=40615bd5-c1e7-492b-9437-753c10eb7d25 } (3.037s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:15</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link (3.081s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:15</td>
+				<td>
+&lt; Click &quot;Homepage Btn&quot; link (3.082s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:17</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;11th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:17</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;11th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:17</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:17</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (0.038s) &gt;&gt; Element { Id=4623d232-cb5e-4621-a471-b09355bd2cca }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:17</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[11]&quot; in Element { Id=4623d232-cb5e-4621-a471-b09355bd2cca }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:17</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[11]&quot; in Element { Id=4623d232-cb5e-4621-a471-b09355bd2cca } (0.038s) &gt;&gt; Element { Id=f790cc85-e828-4e1c-ac9e-f076bfa90249 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:17</td>
+				<td>
+- - &gt; Click element { Id=f790cc85-e828-4e1c-ac9e-f076bfa90249 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:19</td>
+				<td>
+- - &lt; Click element { Id=f790cc85-e828-4e1c-ac9e-f076bfa90249 } (1.888s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:19</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;11th&quot; list item (1.969s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:19</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;11th&quot; list item (1.970s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:21</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Essentials&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:21</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:21</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:21</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (0.041s) &gt;&gt; Element { Id=f4e00d15-fc28-4a83-96a2-be42673877ff }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:21</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (0.061s) &gt;&gt; &quot;Essentials&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:05:21</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Essentials&quot; (0.063s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:21</td>
+				<td>
+&gt; Click &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:21</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:21</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:21</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.026s) &gt;&gt; Element { Id=203cd69c-9ef7-44cf-b2eb-a956e15f6099 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:21</td>
+				<td>
+- - &gt; Click element { Id=203cd69c-9ef7-44cf-b2eb-a956e15f6099 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:25</td>
+				<td>
+- - &lt; Click element { Id=203cd69c-9ef7-44cf-b2eb-a956e15f6099 } (4.089s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:25</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link (4.118s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:25</td>
+				<td>
+&lt; Click &quot;Homepage Btn&quot; link (4.119s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:27</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;13th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:27</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;13th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:27</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:28</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (0.041s) &gt;&gt; Element { Id=48b9f0db-d120-455d-bce3-ccb23f628747 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:28</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[13]&quot; in Element { Id=48b9f0db-d120-455d-bce3-ccb23f628747 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:28</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[13]&quot; in Element { Id=48b9f0db-d120-455d-bce3-ccb23f628747 } (0.031s) &gt;&gt; Element { Id=6d05c521-8fe7-4841-9a0a-e368acf31dfe }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:28</td>
+				<td>
+- - &gt; Click element { Id=6d05c521-8fe7-4841-9a0a-e368acf31dfe }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:32</td>
+				<td>
+- - &lt; Click element { Id=6d05c521-8fe7-4841-9a0a-e368acf31dfe } (4.334s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:32</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;13th&quot; list item (4.411s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:32</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;13th&quot; list item (4.412s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:34</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Services&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:34</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:34</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:34</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (0.055s) &gt;&gt; Element { Id=d0e0d9b0-eeb2-4374-ab87-da7899b8e14d }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:34</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (0.076s) &gt;&gt; &quot;Services&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:05:34</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Services&quot; (0.077s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:34</td>
+				<td>
+&gt; Click &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:34</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:34</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:34</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-market-logo &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.032s) &gt;&gt; Element { Id=25e241a6-8ec7-4c05-86ec-9e4385cec434 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:34</td>
+				<td>
+- - &gt; Click element { Id=25e241a6-8ec7-4c05-86ec-9e4385cec434 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:37</td>
+				<td>
+- - &lt; Click element { Id=25e241a6-8ec7-4c05-86ec-9e4385cec434 } (3.045s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:37</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Homepage Btn&quot; link (3.080s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:37</td>
+				<td>
+&lt; Click &quot;Homepage Btn&quot; link (3.081s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:39</td>
+				<td>
+&gt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;15th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:39</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;15th&quot; list item									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:39</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:39</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; category-list--2oS_W &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; right--WcHqY &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; left--2ndlm &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; hide-native-scrollbar--Nj_rv &#39;)]/descendant-or-self::ul&quot; in ChromeDriver (0.038s) &gt;&gt; Element { Id=de42d90f-9255-4893-ad00-e38ede9cc45f }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:39</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(./li)[15]&quot; in Element { Id=de42d90f-9255-4893-ad00-e38ede9cc45f }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:39</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(./li)[15]&quot; in Element { Id=de42d90f-9255-4893-ad00-e38ede9cc45f } (0.032s) &gt;&gt; Element { Id=f3b9ecc7-5365-462b-9991-377d7c08b62d }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:39</td>
+				<td>
+- - &gt; Click element { Id=f3b9ecc7-5365-462b-9991-377d7c08b62d }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:43</td>
+				<td>
+- - &lt; Click element { Id=f3b9ecc7-5365-462b-9991-377d7c08b62d } (3.864s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:43</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Unordered List&quot; unordered list&#39;s &quot;15th&quot; list item (3.939s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:43</td>
+				<td>
+&lt; Click &quot;Unordered List&quot; unordered list&#39;s &quot;15th&quot; list item (3.940s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:45</td>
+				<td>
+&gt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Overseas Jobs&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:45</td>
+				<td>
+- &gt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:45</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:45</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; ellipsis--AX_lz &#39;)]/descendant-or-self::*&quot; in ChromeDriver (0.038s) &gt;&gt; Element { Id=6b48dc7c-9d7f-4a6e-ae8e-12bb4847ea5d }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:45</td>
+				<td>
+- &lt; Execute behavior GetsContentFromSourceAttribute { Source=Text } against &quot;Categories Validate&quot; element (0.063s) &gt;&gt; &quot;Overseas Jobs&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>22:05:45</td>
+				<td>
+&lt; Assert: &quot;Categories Validate&quot; element content should equal &quot;Overseas Jobs&quot; (0.065s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:45</td>
+				<td>
+&gt; Clean up AtataContext									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:45</td>
+				<td>
+- &gt; Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>22:05:45</td>
+				<td>
+- &lt; Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent (0.003s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:46</td>
+				<td>
+&lt; Clean up AtataContext (0.758s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:46</td>
+				<td>
+Finished test (3m 25.027s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>22:05:46</td>
+				<td>
+Pure test execution time: 3m 22.409s									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+						</div>
+					</li>
+            </ul>    
+        </div>
+    </div>
+    <div class="test-content scrollable">
+        <div class="test-content-tools">
+            <ul>
+                <li>
+                    <a class="back-to-test" href="javascript:void(0)">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="test-content-detail">
+            <div class="detail-body"></div>
+        </div>
+    </div>
+</div>
+										<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-sm-12 col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+	                <div class="">
+	                    <canvas id='parent-analysis' width='115' height='90'></canvas>
+	                </div>
+	            </div>
+	            <div class="card-footer">
+	                <div><small data-tooltip='100%'>
+	                    <b>1</b> tests passed
+                    </small></div>
+	                <div>
+	                    <small data-tooltip='0%'><b>0</b> tests failed, 
+	                    <b data-tooltip='0%'>0</b> others
+	                    </small>
+                    </div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Steps</h6>
+				</div>
+				<div class="card-body">
+	                <div class="">
+	                    <canvas id='child-analysis' width='115' height='90'></canvas>
+	                </div>
+	            </div>
+	            <div class="card-footer">
+	                <div><small data-tooltip='100%'><b>1</b> steps passed</small></div>
+	                <div>
+	                    <small data-tooltip='0%'><b>0</b> steps failed, 
+	                    <b data-tooltip='0%'>0</b> others
+	                    </small>
+                    </div>
+	            </div>
+			</div>
+		</div>
+			</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light">1</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+								<span>100%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Steps</h6>
+							<h2 class="font-size-28 font-weight-light">1</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+								<span>100%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Start</h6>
+							<h6 class="font-weight-light">11/29/2021 10:02:21 PM</h6>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Duration</h6>
+							<h6 class="font-weight-light">00:03:24.7805459</h6>
+							<span class="text-semibold text-danger font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-danger opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+							</div>
+</div>
+<script>
+	var statusGroup = {
+    parentCount: 1,
+		passParent: 1,
+		failParent: 0,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 0,
+		childCount: 1,
+		passChild: 1,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+	};
+</script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@cc89904c1a12065be1d08fc4994a258ef01b12bd/spark/js/scripts.js"></script>
+<script type='text/javascript'>
+	
+</script>
+</body>
+
+</html>

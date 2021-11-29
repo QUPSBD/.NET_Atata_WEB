@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>UI Tests Report</title>
+  <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@3da944e596e81f10ac6c1042c792af8a5a741023/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@3da944e596e81f10ac6c1042c792af8a5a741023/commons/img/logo.png">
+  <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@8539670db814bf19a0ddbe9a6d19058aea0cf981/spark/css/spark-style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa ">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary"></span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">11/29/2021 9:59:06 PM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row test-view">
+    <div class="test-list">
+        <div class="test-list-tools">
+            <ul class="tools pull-left">
+                <li>
+                    <a href="">
+                        <span class="font-size-14">Tests</span>
+                    </a>
+                </li> 
+            </ul>
+            <ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a status="fail" class="dropdown-item" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>																														<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+								            </ul>
+        </div>
+        <div class="test-list-wrapper scrollable">
+            <ul class="test-list-item">
+					<li class="test-item" status="fail" author="" device="" tag="" test-id="1"> 
+						<div class="status-avatar fail-bg">
+							<i class="fa fa-times text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">LookSomethingToBuy</p> 
+								<p class="duration text-sm">0h:0m:46s+236ms</p> 
+								<span class="datetime">21:59:06 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-fail">LookSomethingToBuy</h5>
+										<span class='badge badge-success'>11/29/2021 9:59:06 PM</span>
+										<span class='badge badge-danger'>11/29/2021 9:59:52 PM</span>
+										<span class='badge badge-default'>0h:0m:46s+236ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">PostAdd</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:06</td>
+				<td>
+Starting test: SampleApp.UITests.Tests.LookSomethingToBuy.PostAdd									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:06</td>
+				<td>
+&gt; Set up AtataContext									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:06</td>
+				<td>
+- Set: BaseUrl=https://bikroy.com/									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:06</td>
+				<td>
+- Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:06</td>
+				<td>
+- Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:06</td>
+				<td>
+- Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:06</td>
+				<td>
+- Set: Culture=en-US									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:06</td>
+				<td>
+- Set: Artifacts=C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\bin\Debug\net5.0\artifacts\2021-11-29 21_59_06\LookSomethingToBuy\PostAdd									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:06</td>
+				<td>
+- Set: DriverService=ChromeDriverService on port 55951									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:08</td>
+				<td>
+- Set: Driver=ChromeDriver (alias=chrome)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:08</td>
+				<td>
+&lt; Set up AtataContext (1.724s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:08</td>
+				<td>
+Go to &quot;Home&quot; page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:08</td>
+				<td>
+Go to URL &quot;https://bikroy.com/&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:14</td>
+				<td>
+Take screenshot #01									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:14</td>
+				<td>
+Screenshot saved to file &quot;C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\bin\Debug\net5.0\artifacts\2021-11-29 21_59_06\LookSomethingToBuy\PostAdd\01 - Home page.png&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:14</td>
+				<td>
+&gt; Execute event handler ExtentScreenshotFileEventHandler on ScreenshotFileSavedEvent									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:14</td>
+				<td>
+					<img class='r-img' title='' onerror='this.style.display="none"' data-featherlight='LookSomethingToBuy\PostAdd\01 - Home page.png' src='LookSomethingToBuy\PostAdd\01 - Home page.png' data-src='LookSomethingToBuy\PostAdd\01 - Home page.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:14</td>
+				<td>
+&lt; Execute event handler ExtentScreenshotFileEventHandler on ScreenshotFileSavedEvent (0.006s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:14</td>
+				<td>
+&gt; Click &quot;Sign In&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:14</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Sign In&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:14</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; title--1NHWk &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-login-click &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:15</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; title--1NHWk &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-login-click &#39;)]/descendant-or-self::a&quot; in ChromeDriver (0.467s) &gt;&gt; Element { Id=5260ba5d-604f-4de1-bedc-ec784ebb2d1c }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:15</td>
+				<td>
+- - &gt; Click element { Id=5260ba5d-604f-4de1-bedc-ec784ebb2d1c }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:15</td>
+				<td>
+- - &lt; Click element { Id=5260ba5d-604f-4de1-bedc-ec784ebb2d1c } (0.204s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:15</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Sign In&quot; link (0.804s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:15</td>
+				<td>
+&lt; Click &quot;Sign In&quot; link (0.810s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:15</td>
+				<td>
+&gt; Click &quot;Continue with Email&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:15</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Continue with Email&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:15</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(/html/body/div[3]/div/div/div/div[2]/div[2]/div/div[3]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:16</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(/html/body/div[3]/div/div/div/div[2]/div[2]/div/div[3]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver (1.065s) &gt;&gt; Element { Id=72706e22-83cd-4020-aa17-90bcbb3f5ad2 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:16</td>
+				<td>
+- - &gt; Click element { Id=72706e22-83cd-4020-aa17-90bcbb3f5ad2 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:16</td>
+				<td>
+- - &lt; Click element { Id=72706e22-83cd-4020-aa17-90bcbb3f5ad2 } (0.125s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:16</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Continue with Email&quot; button (1.208s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:16</td>
+				<td>
+&lt; Click &quot;Continue with Email&quot; button (1.209s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:16</td>
+				<td>
+&gt; Set &quot;ashiq10@gmail.com&quot; to &quot;Email&quot; email input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:16</td>
+				<td>
+- &gt; Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against &quot;Email&quot; email input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:16</td>
+				<td>
+- - &gt; Execute behavior ClearsValueUsingClearMethodAttribute against &quot;Email&quot; email input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:16</td>
+				<td>
+- - - &gt; Find visible element by XPath &quot;.//*[normalize-space(@id) = &#39;input_email&#39;]/descendant-or-self::input[@type=&#39;email&#39;]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:16</td>
+				<td>
+- - - &lt; Find visible element by XPath &quot;.//*[normalize-space(@id) = &#39;input_email&#39;]/descendant-or-self::input[@type=&#39;email&#39;]&quot; in ChromeDriver (0.048s) &gt;&gt; Element { Id=f6e1f207-0604-4d98-b6d5-3214bea9f983 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:16</td>
+				<td>
+- - - &gt; Clear element { Id=f6e1f207-0604-4d98-b6d5-3214bea9f983 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - - &lt; Clear element { Id=f6e1f207-0604-4d98-b6d5-3214bea9f983 } (0.064s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - &lt; Execute behavior ClearsValueUsingClearMethodAttribute against &quot;Email&quot; email input (0.126s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - &gt; Execute behavior TypesTextUsingSendKeysAttribute against &quot;Email&quot; email input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - - &gt; Send keys &quot;ashiq10@gmail.com&quot; to element { Id=f6e1f207-0604-4d98-b6d5-3214bea9f983 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - - &lt; Send keys &quot;ashiq10@gmail.com&quot; to element { Id=f6e1f207-0604-4d98-b6d5-3214bea9f983 } (0.245s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - &lt; Execute behavior TypesTextUsingSendKeysAttribute against &quot;Email&quot; email input (0.250s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- &lt; Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against &quot;Email&quot; email input (0.382s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:17</td>
+				<td>
+&lt; Set &quot;ashiq10@gmail.com&quot; to &quot;Email&quot; email input (0.391s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:17</td>
+				<td>
+&gt; Set &quot;123456789As@&quot; to &quot;Password&quot; password input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- &gt; Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against &quot;Password&quot; password input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - &gt; Execute behavior ClearsValueUsingClearMethodAttribute against &quot;Password&quot; password input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - - &gt; Find visible element by XPath &quot;.//*[normalize-space(@id) = &#39;input_password&#39;]/descendant-or-self::input[@type=&#39;password&#39;]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - - &lt; Find visible element by XPath &quot;.//*[normalize-space(@id) = &#39;input_password&#39;]/descendant-or-self::input[@type=&#39;password&#39;]&quot; in ChromeDriver (0.051s) &gt;&gt; Element { Id=fdd3184c-496c-4781-a328-777bbfbfce85 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - - &gt; Clear element { Id=fdd3184c-496c-4781-a328-777bbfbfce85 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - - &lt; Clear element { Id=fdd3184c-496c-4781-a328-777bbfbfce85 } (0.069s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - &lt; Execute behavior ClearsValueUsingClearMethodAttribute against &quot;Password&quot; password input (0.123s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - &gt; Execute behavior TypesTextUsingSendKeysAttribute against &quot;Password&quot; password input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - - &gt; Send keys &quot;123456789As@&quot; to element { Id=fdd3184c-496c-4781-a328-777bbfbfce85 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - - &lt; Send keys &quot;123456789As@&quot; to element { Id=fdd3184c-496c-4781-a328-777bbfbfce85 } (0.214s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - &lt; Execute behavior TypesTextUsingSendKeysAttribute against &quot;Password&quot; password input (0.215s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- &lt; Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against &quot;Password&quot; password input (0.340s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:17</td>
+				<td>
+&lt; Set &quot;123456789As@&quot; to &quot;Password&quot; password input (0.347s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:17</td>
+				<td>
+&gt; Click &quot;Login Btn&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Login Btn&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(/html/body/div[3]/div/div/div/div[2]/div[2]/div/form/div[2]/div/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(/html/body/div[3]/div/div/div/div[2]/div[2]/div/form/div[2]/div/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver (0.051s) &gt;&gt; Element { Id=8ea8a27d-100e-482a-9d9e-a225c52ffd09 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - &gt; Click element { Id=8ea8a27d-100e-482a-9d9e-a225c52ffd09 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - &lt; Click element { Id=8ea8a27d-100e-482a-9d9e-a225c52ffd09 } (0.148s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Login Btn&quot; button (0.201s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:17</td>
+				<td>
+&lt; Click &quot;Login Btn&quot; button (0.202s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:17</td>
+				<td>
+&gt; Click &quot;Post Your Add&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Post Your Add&quot; link									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:17</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; anchor--2X85N &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; header-link--woAbP &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; post-ad-button--2bUqH &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-postall &#39;)]/descendant-or-self::a&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:26</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;.//*[contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; anchor--2X85N &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; header-link--woAbP &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; post-ad-button--2bUqH &#39;) and contains(concat(&#39; &#39;, normalize-space(@class), &#39; &#39;), &#39; gtm-postall &#39;)]/descendant-or-self::a&quot; in ChromeDriver (9.051s) &gt;&gt; Element { Id=bbe358a5-b09c-4ffe-a4e4-844a9f78bbb6 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:26</td>
+				<td>
+- - &gt; Click element { Id=bbe358a5-b09c-4ffe-a4e4-844a9f78bbb6 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:29</td>
+				<td>
+- - &lt; Click element { Id=bbe358a5-b09c-4ffe-a4e4-844a9f78bbb6 } (2.954s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:29</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Post Your Add&quot; link (12.010s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:29</td>
+				<td>
+&lt; Click &quot;Post Your Add&quot; link (12.011s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:29</td>
+				<td>
+Go to &quot;Post Add&quot; page									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:32</td>
+				<td>
+&gt; Click &quot;Look for Something to Buy&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:32</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Look for Something to Buy&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:32</td>
+				<td>
+- - &gt; Execute trigger ScrollDownAttribute on BeforeAccess against &quot;Look for Something to Buy&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:32</td>
+				<td>
+- - - Scroll down									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:32</td>
+				<td>
+- - - &gt; Execute script &quot;var height = document.body.scrollHeight;document.body.scrollTop = height;document.documentElement...&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:32</td>
+				<td>
+- - - &lt; Execute script &quot;var height = document.body.scrollHeight;document.body.scrollTop = height;document.documentElement...&quot; (0.048s) &gt;&gt; null									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:32</td>
+				<td>
+- - &lt; Execute trigger ScrollDownAttribute on BeforeAccess against &quot;Look for Something to Buy&quot; button (0.058s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:32</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(//*[@id=&#39;app-wrapper&#39;]/div[1]/div[3]/div[2]/div[2]/div[3]/ul/li[2]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:32</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(//*[@id=&#39;app-wrapper&#39;]/div[1]/div[3]/div[2]/div[2]/div[3]/ul/li[2]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver (0.109s) &gt;&gt; Element { Id=0e34a9b9-1f16-4c35-bd3a-d3692c95e314 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:32</td>
+				<td>
+- - &gt; Click element { Id=0e34a9b9-1f16-4c35-bd3a-d3692c95e314 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:32</td>
+				<td>
+- - &lt; Click element { Id=0e34a9b9-1f16-4c35-bd3a-d3692c95e314 } (0.631s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:32</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Look for Something to Buy&quot; button (0.816s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:32</td>
+				<td>
+&lt; Click &quot;Look for Something to Buy&quot; button (0.818s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:32</td>
+				<td>
+&gt; Click &quot;Electronics&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:32</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Electronics&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:32</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(/html/body/div[4]/div/div/div/div[2]/div/div/div/ul/li[3]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:33</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(/html/body/div[4]/div/div/div/div[2]/div/div/div/ul/li[3]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver (0.503s) &gt;&gt; Element { Id=98067680-fea2-41ce-af9c-c9975bf4fa85 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:33</td>
+				<td>
+- - &gt; Click element { Id=98067680-fea2-41ce-af9c-c9975bf4fa85 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:33</td>
+				<td>
+- - &lt; Click element { Id=98067680-fea2-41ce-af9c-c9975bf4fa85 } (0.245s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:33</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Electronics&quot; button (0.753s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:33</td>
+				<td>
+&lt; Click &quot;Electronics&quot; button (0.755s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:36</td>
+				<td>
+&gt; Click &quot;Laptops&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:36</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Laptops&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:36</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(/html/body/div[4]/div/div/div/div[2]/div/div[2]/div/ul/li[2]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:36</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(/html/body/div[4]/div/div/div/div[2]/div/div[2]/div/ul/li[2]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver (0.083s) &gt;&gt; Element { Id=20f26da7-f9d9-4590-8f92-77aa950e5574 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:36</td>
+				<td>
+- - &gt; Click element { Id=20f26da7-f9d9-4590-8f92-77aa950e5574 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:37</td>
+				<td>
+- - &lt; Click element { Id=20f26da7-f9d9-4590-8f92-77aa950e5574 } (0.665s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:37</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Laptops&quot; button (0.753s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:37</td>
+				<td>
+&lt; Click &quot;Laptops&quot; button (0.755s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:37</td>
+				<td>
+&gt; Click &quot;Rajshahi&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:37</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Rajshahi&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:37</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(/html/body/div[4]/div/div/div/div[2]/div/div/div/div[1]/div/ul/li[6]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:37</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(/html/body/div[4]/div/div/div/div[2]/div/div/div/div[1]/div/ul/li[6]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver (0.584s) &gt;&gt; Element { Id=b5dcfa1b-1478-4857-ae93-2dcd5e757f43 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:37</td>
+				<td>
+- - &gt; Click element { Id=b5dcfa1b-1478-4857-ae93-2dcd5e757f43 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:38</td>
+				<td>
+- - &lt; Click element { Id=b5dcfa1b-1478-4857-ae93-2dcd5e757f43 } (0.221s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:38</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Rajshahi&quot; button (0.809s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:38</td>
+				<td>
+&lt; Click &quot;Rajshahi&quot; button (0.811s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:40</td>
+				<td>
+&gt; Click &quot;Uposohor&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:40</td>
+				<td>
+- &gt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Uposohor&quot; button									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:40</td>
+				<td>
+- - &gt; Find visible element by XPath &quot;(/html/body/div[4]/div/div/div/div[2]/div/div[2]/div/div[2]/ul/li[3]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:40</td>
+				<td>
+- - &lt; Find visible element by XPath &quot;(/html/body/div[4]/div/div/div/div[2]/div/div[2]/div/div[2]/ul/li[3]/button)/descendant-or-self::*[self::input[@type=&#39;button&#39; or @type=&#39;submit&#39; or @type=&#39;reset&#39;] or self::button]&quot; in ChromeDriver (0.222s) &gt;&gt; Element { Id=4c3ec392-3d34-4933-a961-870b9693ebf5 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:40</td>
+				<td>
+- - &gt; Click element { Id=4c3ec392-3d34-4933-a961-870b9693ebf5 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:40</td>
+				<td>
+- - &lt; Click element { Id=4c3ec392-3d34-4933-a961-870b9693ebf5 } (0.536s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:40</td>
+				<td>
+- &lt; Execute behavior ClicksUsingClickMethodAttribute against &quot;Uposohor&quot; button (0.763s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:40</td>
+				<td>
+&lt; Click &quot;Uposohor&quot; button (0.766s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:43</td>
+				<td>
+&gt; Set &quot;acer&quot; to &quot;Title&quot; text input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:43</td>
+				<td>
+- &gt; Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against &quot;Title&quot; text input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:43</td>
+				<td>
+- - &gt; Execute behavior ClearsValueUsingClearMethodAttribute against &quot;Title&quot; text input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:43</td>
+				<td>
+- - - &gt; Find visible element by XPath &quot;.//*[normalize-space(@id) = &#39;input_title&#39;]/descendant-or-self::input[@type=&#39;text&#39; or not(@type)]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:44</td>
+				<td>
+- - - &lt; Find visible element by XPath &quot;.//*[normalize-space(@id) = &#39;input_title&#39;]/descendant-or-self::input[@type=&#39;text&#39; or not(@type)]&quot; in ChromeDriver (0.094s) &gt;&gt; Element { Id=e2423e34-ce1b-4b6a-a235-0244e06ae571 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:44</td>
+				<td>
+- - - &gt; Clear element { Id=e2423e34-ce1b-4b6a-a235-0244e06ae571 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:44</td>
+				<td>
+- - - &lt; Clear element { Id=e2423e34-ce1b-4b6a-a235-0244e06ae571 } (0.126s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:44</td>
+				<td>
+- - &lt; Execute behavior ClearsValueUsingClearMethodAttribute against &quot;Title&quot; text input (0.225s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:44</td>
+				<td>
+- - &gt; Execute behavior TypesTextUsingSendKeysAttribute against &quot;Title&quot; text input									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:44</td>
+				<td>
+- - - &gt; Send keys &quot;acer&quot; to element { Id=e2423e34-ce1b-4b6a-a235-0244e06ae571 }									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:44</td>
+				<td>
+- - - &lt; Send keys &quot;acer&quot; to element { Id=e2423e34-ce1b-4b6a-a235-0244e06ae571 } (0.290s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:44</td>
+				<td>
+- - &lt; Execute behavior TypesTextUsingSendKeysAttribute against &quot;Title&quot; text input (0.291s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:44</td>
+				<td>
+- &lt; Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against &quot;Title&quot; text input (0.521s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:44</td>
+				<td>
+&lt; Set &quot;acer&quot; to &quot;Title&quot; text input (0.523s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:44</td>
+				<td>
+&gt; Set &quot;This is a brand new laptop with 8 gb ram&quot; to &quot;Description&quot; text area									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:44</td>
+				<td>
+- &gt; Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against &quot;Description&quot; text area									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:44</td>
+				<td>
+- - &gt; Execute behavior ClearsValueUsingClearMethodAttribute against &quot;Description&quot; text area									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:44</td>
+				<td>
+- - - &gt; Find visible element by XPath &quot;.//label[normalize-space(.) = &#39;Description&#39;]&quot; in ChromeDriver									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:49</td>
+				<td>
+- - - &lt; Find visible element by XPath &quot;.//label[normalize-space(.) = &#39;Description&#39;]&quot; in ChromeDriver (5.036s) &gt;&gt; OpenQA.Selenium.NoSuchElementException: Unable to locate visible &quot;Description&quot; label element:...									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:49</td>
+				<td>
+- - &lt; Execute behavior ClearsValueUsingClearMethodAttribute against &quot;Description&quot; text area (5.054s) &gt;&gt; OpenQA.Selenium.NoSuchElementException: Unable to locate visible &quot;Description&quot; label element:...									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:49</td>
+				<td>
+- &lt; Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against &quot;Description&quot; text area (5.056s) &gt;&gt; OpenQA.Selenium.NoSuchElementException: Unable to locate visible &quot;Description&quot; label element:...									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:49</td>
+				<td>
+&lt; Set &quot;This is a brand new laptop with 8 gb ram&quot; to &quot;Description&quot; text area (5.059s) &gt;&gt; OpenQA.Selenium.NoSuchElementException: Unable to locate visible &quot;Description&quot; label element:...									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:49</td>
+				<td>
+&gt; Clean up AtataContext									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:49</td>
+				<td>
+- &gt; Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:49</td>
+				<td>
+- &lt; Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent (0.009s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:49</td>
+				<td>
+- &gt; Execute event handler TakeScreenshotOnNUnitErrorOnCleanUpEventHandler on AtataContextCleanUpEvent									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:49</td>
+				<td>
+- - Take screenshot #02 - Failed									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:50</td>
+				<td>
+- - Screenshot saved to file &quot;C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\bin\Debug\net5.0\artifacts\2021-11-29 21_59_06\LookSomethingToBuy\PostAdd\02 - Post Add page - Failed.png&quot;									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:50</td>
+				<td>
+- - &gt; Execute event handler ExtentScreenshotFileEventHandler on ScreenshotFileSavedEvent									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:50</td>
+				<td>
+					<img class='r-img' title='Failed' onerror='this.style.display="none"' data-featherlight='LookSomethingToBuy\PostAdd\02 - Post Add page - Failed.png' src='LookSomethingToBuy\PostAdd\02 - Post Add page - Failed.png' data-src='LookSomethingToBuy\PostAdd\02 - Post Add page - Failed.png'>				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:50</td>
+				<td>
+- - &lt; Execute event handler ExtentScreenshotFileEventHandler on ScreenshotFileSavedEvent (0.001s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:50</td>
+				<td>
+- &lt; Execute event handler TakeScreenshotOnNUnitErrorOnCleanUpEventHandler on AtataContextCleanUpEvent (0.384s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:50</td>
+				<td>
+- &gt; Execute event handler LogNUnitErrorOnCleanUpEventHandler on AtataContextCleanUpEvent									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>21:59:50</td>
+				<td>
+- - OpenQA.Selenium.NoSuchElementException : Unable to locate visible &quot;Description&quot; label element:<br>- By: XPath &quot;.//label[normalize-space(.) = &#39;Description&#39;]&quot;<br>- Search time: 5.026s<br>- Search options: {Visibility=Visible, Timeout=5s, RetryInterval=0.5s, IsSafely=False}<br>&nbsp;&nbsp;&nbsp;at Atata.ExtendedSearchContext`1.Find(By by)<br>&nbsp;&nbsp;&nbsp;at Atata.ExtendedSearchContext`1.FindElement(By by)<br>&nbsp;&nbsp;&nbsp;at Atata.ISearchContextExtensions.Get[T](T searchContext, By by)<br>&nbsp;&nbsp;&nbsp;at Atata.ISearchContextLoggingExtensions.&lt;&gt;c__DisplayClass0_0.&lt;GetWithLogging&gt;b__0()<br>&nbsp;&nbsp;&nbsp;at Atata.LogManager.ExecuteSection[TResult](LogSection section, Func`1 function)<br>&nbsp;&nbsp;&nbsp;at Atata.ISearchContextLoggingExtensions.GetWithLogging(ISearchContext searchContext, By by)<br>&nbsp;&nbsp;&nbsp;at Atata.FindByLabelStrategy.Find(ISearchContext scope, ComponentScopeLocateOptions options, SearchOptions searchOptions)<br>&nbsp;&nbsp;&nbsp;at Atata.StrategyScopeLocatorExecutor.ExecuteToGetResult(Object strategy, ISearchContext scope, ComponentScopeLocateOptions scopeLocateOptions, SearchOptions searchOptions)<br>&nbsp;&nbsp;&nbsp;at Atata.StrategyScopeLocatorExecutor.Execute(StrategyScopeLocatorExecutionData executionData)<br>&nbsp;&nbsp;&nbsp;at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)<br>&nbsp;&nbsp;&nbsp;at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)<br>&nbsp;&nbsp;&nbsp;at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)<br>&nbsp;&nbsp;&nbsp;at Atata.UIComponent.get_Scope()<br>&nbsp;&nbsp;&nbsp;at Atata.ClearsValueUsingClearMethodAttribute.Execute[TOwner](IUIComponent`1 component)<br>&nbsp;&nbsp;&nbsp;at Atata.SetsValueUsingClearAndTypeBehaviorsAttribute.&lt;&gt;c__DisplayClass3_0`1.&lt;Execute&gt;b__1(ValueClearBehaviorAttribute x)<br>&nbsp;&nbsp;&nbsp;at Atata.UIComponent.&lt;&gt;c__DisplayClass61_0`1.&lt;ExecuteBehavior&gt;b__0()<br>&nbsp;&nbsp;&nbsp;at Atata.LogManager.ExecuteSection(LogSection section, Action action)<br>&nbsp;&nbsp;&nbsp;at Atata.UIComponent.ExecuteBehavior[TBehaviorAttribute](Action`1 behaviorExecutionAction)<br>&nbsp;&nbsp;&nbsp;at Atata.SetsValueUsingClearAndTypeBehaviorsAttribute.&lt;&gt;c__DisplayClass3_0`1.&lt;Execute&gt;g__DoExecute|0()<br>&nbsp;&nbsp;&nbsp;at Atata.UIComponentAccessChainScopeCache.ExecuteWithin(Action action)<br>&nbsp;&nbsp;&nbsp;at Atata.SetsValueUsingClearAndTypeBehaviorsAttribute.Execute[TOwner](IUIComponent`1 component, String value)<br>&nbsp;&nbsp;&nbsp;at Atata.EditableTextField`2.&lt;&gt;c__DisplayClass1_0.&lt;SetValue&gt;b__0(ValueSetBehaviorAttribute x)<br>&nbsp;&nbsp;&nbsp;at Atata.UIComponent.&lt;&gt;c__DisplayClass61_0`1.&lt;ExecuteBehavior&gt;b__0()<br>&nbsp;&nbsp;&nbsp;at Atata.LogManager.ExecuteSection(LogSection section, Action action)<br>&nbsp;&nbsp;&nbsp;at Atata.UIComponent.ExecuteBehavior[TBehaviorAttribute](Action`1 behaviorExecutionAction)<br>&nbsp;&nbsp;&nbsp;at Atata.EditableTextField`2.SetValue(T value)<br>&nbsp;&nbsp;&nbsp;at Atata.EditableField`2.&lt;&gt;c__DisplayClass12_0.&lt;Set&gt;b__0()<br>&nbsp;&nbsp;&nbsp;at Atata.LogManager.ExecuteSection(LogSection section, Action action)<br>&nbsp;&nbsp;&nbsp;at Atata.EditableField`2.Set(T value)<br>&nbsp;&nbsp;&nbsp;at SampleApp.UITests.Tests.LookSomethingToBuy.PostAdd() in C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\Tests\LookSomethingToBuy.cs:line 18									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-low_priority text-debug"></i></td>
+				<td>21:59:50</td>
+				<td>
+- &lt; Execute event handler LogNUnitErrorOnCleanUpEventHandler on AtataContextCleanUpEvent (0.035s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:52</td>
+				<td>
+&lt; Clean up AtataContext (2.865s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:52</td>
+				<td>
+Finished test (46.497s)									</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>21:59:52</td>
+				<td>
+Pure test execution time: 41.579s									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+						</div>
+					</li>
+            </ul>    
+        </div>
+    </div>
+    <div class="test-content scrollable">
+        <div class="test-content-tools">
+            <ul>
+                <li>
+                    <a class="back-to-test" href="javascript:void(0)">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="test-content-detail">
+            <div class="detail-body"></div>
+        </div>
+    </div>
+</div>
+										<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-sm-12 col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+	                <div class="">
+	                    <canvas id='parent-analysis' width='115' height='90'></canvas>
+	                </div>
+	            </div>
+	            <div class="card-footer">
+	                <div><small data-tooltip='0%'>
+	                    <b>0</b> tests passed
+                    </small></div>
+	                <div>
+	                    <small data-tooltip='100%'><b>1</b> tests failed, 
+	                    <b data-tooltip='0%'>0</b> others
+	                    </small>
+                    </div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Steps</h6>
+				</div>
+				<div class="card-body">
+	                <div class="">
+	                    <canvas id='child-analysis' width='115' height='90'></canvas>
+	                </div>
+	            </div>
+	            <div class="card-footer">
+	                <div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
+	                <div>
+	                    <small data-tooltip='100%'><b>1</b> steps failed, 
+	                    <b data-tooltip='0%'>0</b> others
+	                    </small>
+                    </div>
+	            </div>
+			</div>
+		</div>
+			</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light">1</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+								<span>0%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Steps</h6>
+							<h2 class="font-size-28 font-weight-light">1</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+								<span>0%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Start</h6>
+							<h6 class="font-weight-light">11/29/2021 9:59:06 PM</h6>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Duration</h6>
+							<h6 class="font-weight-light">00:00:46.3008446</h6>
+							<span class="text-semibold text-danger font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-danger opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+							</div>
+</div>
+<script>
+	var statusGroup = {
+    parentCount: 1,
+		passParent: 0,
+		failParent: 1,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 1,
+		childCount: 1,
+		passChild: 0,
+		failChild: 1,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 1,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+	};
+</script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@cc89904c1a12065be1d08fc4994a258ef01b12bd/spark/js/scripts.js"></script>
+<script type='text/javascript'>
+	
+</script>
+</body>
+
+</html>

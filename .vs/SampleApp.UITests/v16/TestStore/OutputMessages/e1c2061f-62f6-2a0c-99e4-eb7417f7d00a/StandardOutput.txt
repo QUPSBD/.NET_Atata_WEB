@@ -1,0 +1,111 @@
+2021-11-29 21:48:23.4226  INFO Starting test: SampleApp.UITests.Tests.SearchItem.SearchTest
+2021-11-29 21:48:23.4232 TRACE > Set up AtataContext
+2021-11-29 21:48:23.4237 TRACE - Set: BaseUrl=https://bikroy.com/
+2021-11-29 21:48:23.4243 TRACE - Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2021-11-29 21:48:23.4262 TRACE - Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2021-11-29 21:48:23.4269 TRACE - Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2021-11-29 21:48:23.4275 TRACE - Set: Culture=en-US
+2021-11-29 21:48:23.4282 TRACE - Set: Artifacts=C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\bin\Debug\net5.0\artifacts\2021-11-29 21_46_31\SearchItem\SearchTest
+2021-11-29 21:48:23.4292 TRACE - Set: DriverService=ChromeDriverService on port 54179
+2021-11-29 21:48:25.5101 TRACE - Set: Driver=ChromeDriver (alias=chrome)
+2021-11-29 21:48:25.5109 TRACE < Set up AtataContext (2.087s)
+2021-11-29 21:48:25.5120  INFO Go to "Home" page
+2021-11-29 21:48:25.5311  INFO Go to URL "https://bikroy.com/"
+2021-11-29 21:49:03.3364  INFO Take screenshot #01
+2021-11-29 21:49:03.5562  INFO Screenshot saved to file "C:\Users\LENOVO\Source\Repos\QUPSBD\Ashiq_.NET_Atata_WEB\SampleApp.UITests\bin\Debug\net5.0\artifacts\2021-11-29 21_46_31\SearchItem\SearchTest\01 - Home page.png"
+2021-11-29 21:49:03.5575 TRACE > Execute event handler ExtentScreenshotFileEventHandler on ScreenshotFileSavedEvent
+2021-11-29 21:49:03.5588 TRACE < Execute event handler ExtentScreenshotFileEventHandler on ScreenshotFileSavedEvent (0.001s)
+2021-11-29 21:49:03.5594  INFO > Click "Sign In" link
+2021-11-29 21:49:03.5603 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Sign In" link
+2021-11-29 21:49:03.5619 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' title--1NHWk ') and contains(concat(' ', normalize-space(@class), ' '), ' gtm-login-click ')]/descendant-or-self::a" in ChromeDriver
+2021-11-29 21:49:03.6368 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' title--1NHWk ') and contains(concat(' ', normalize-space(@class), ' '), ' gtm-login-click ')]/descendant-or-self::a" in ChromeDriver (0.074s) >> Element { Id=c291217b-6d18-4376-868e-f2656874e9c9 }
+2021-11-29 21:49:03.6376 TRACE - - > Click element { Id=c291217b-6d18-4376-868e-f2656874e9c9 }
+2021-11-29 21:49:03.7900 TRACE - - < Click element { Id=c291217b-6d18-4376-868e-f2656874e9c9 } (0.152s)
+2021-11-29 21:49:03.7907 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Sign In" link (0.230s)
+2021-11-29 21:49:03.7914  INFO < Click "Sign In" link (0.231s)
+2021-11-29 21:49:03.7925  INFO > Click "Continue with Email" button
+2021-11-29 21:49:03.7934 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Continue with Email" button
+2021-11-29 21:49:03.7948 TRACE - - > Find visible element by XPath "(/html/body/div[3]/div/div/div/div[2]/div[2]/div/div[3]/button)/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver
+2021-11-29 21:49:04.8602 TRACE - - < Find visible element by XPath "(/html/body/div[3]/div/div/div/div[2]/div[2]/div/div[3]/button)/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver (1.065s) >> Element { Id=f72ea357-9586-4900-9b85-86cbece4d2fd }
+2021-11-29 21:49:04.8612 TRACE - - > Click element { Id=f72ea357-9586-4900-9b85-86cbece4d2fd }
+2021-11-29 21:49:04.9570 TRACE - - < Click element { Id=f72ea357-9586-4900-9b85-86cbece4d2fd } (0.095s)
+2021-11-29 21:49:04.9578 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Continue with Email" button (1.164s)
+2021-11-29 21:49:04.9585  INFO < Click "Continue with Email" button (1.165s)
+2021-11-29 21:49:04.9592  INFO > Set "ashiq10@gmail.com" to "Email" email input
+2021-11-29 21:49:04.9599 TRACE - > Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Email" email input
+2021-11-29 21:49:04.9605 TRACE - - > Execute behavior ClearsValueUsingClearMethodAttribute against "Email" email input
+2021-11-29 21:49:04.9613 TRACE - - - > Find visible element by XPath ".//*[normalize-space(@id) = 'input_email']/descendant-or-self::input[@type='email']" in ChromeDriver
+2021-11-29 21:49:05.0099 TRACE - - - < Find visible element by XPath ".//*[normalize-space(@id) = 'input_email']/descendant-or-self::input[@type='email']" in ChromeDriver (0.048s) >> Element { Id=eb8dbef4-8c39-4610-9bf0-c559497a7543 }
+2021-11-29 21:49:05.0107 TRACE - - - > Clear element { Id=eb8dbef4-8c39-4610-9bf0-c559497a7543 }
+2021-11-29 21:49:05.0617 TRACE - - - < Clear element { Id=eb8dbef4-8c39-4610-9bf0-c559497a7543 } (0.050s)
+2021-11-29 21:49:05.0623 TRACE - - < Execute behavior ClearsValueUsingClearMethodAttribute against "Email" email input (0.101s)
+2021-11-29 21:49:05.0632 TRACE - - > Execute behavior TypesTextUsingSendKeysAttribute against "Email" email input
+2021-11-29 21:49:05.0638 TRACE - - - > Send keys "ashiq10@gmail.com" to element { Id=eb8dbef4-8c39-4610-9bf0-c559497a7543 }
+2021-11-29 21:49:05.2289 TRACE - - - < Send keys "ashiq10@gmail.com" to element { Id=eb8dbef4-8c39-4610-9bf0-c559497a7543 } (0.165s)
+2021-11-29 21:49:05.2296 TRACE - - < Execute behavior TypesTextUsingSendKeysAttribute against "Email" email input (0.166s)
+2021-11-29 21:49:05.2301 TRACE - < Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Email" email input (0.270s)
+2021-11-29 21:49:05.2308  INFO < Set "ashiq10@gmail.com" to "Email" email input (0.271s)
+2021-11-29 21:49:05.2316  INFO > Set "123456789As@" to "Password" password input
+2021-11-29 21:49:05.2323 TRACE - > Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Password" password input
+2021-11-29 21:49:05.2330 TRACE - - > Execute behavior ClearsValueUsingClearMethodAttribute against "Password" password input
+2021-11-29 21:49:05.2342 TRACE - - - > Find visible element by XPath ".//*[normalize-space(@id) = 'input_password']/descendant-or-self::input[@type='password']" in ChromeDriver
+2021-11-29 21:49:05.2834 TRACE - - - < Find visible element by XPath ".//*[normalize-space(@id) = 'input_password']/descendant-or-self::input[@type='password']" in ChromeDriver (0.049s) >> Element { Id=970f25f9-9e03-406a-a4f9-83abf1e6a8a2 }
+2021-11-29 21:49:05.2842 TRACE - - - > Clear element { Id=970f25f9-9e03-406a-a4f9-83abf1e6a8a2 }
+2021-11-29 21:49:05.3363 TRACE - - - < Clear element { Id=970f25f9-9e03-406a-a4f9-83abf1e6a8a2 } (0.052s)
+2021-11-29 21:49:05.3370 TRACE - - < Execute behavior ClearsValueUsingClearMethodAttribute against "Password" password input (0.103s)
+2021-11-29 21:49:05.3377 TRACE - - > Execute behavior TypesTextUsingSendKeysAttribute against "Password" password input
+2021-11-29 21:49:05.3383 TRACE - - - > Send keys "123456789As@" to element { Id=970f25f9-9e03-406a-a4f9-83abf1e6a8a2 }
+2021-11-29 21:49:05.4762 TRACE - - - < Send keys "123456789As@" to element { Id=970f25f9-9e03-406a-a4f9-83abf1e6a8a2 } (0.137s)
+2021-11-29 21:49:05.4770 TRACE - - < Execute behavior TypesTextUsingSendKeysAttribute against "Password" password input (0.139s)
+2021-11-29 21:49:05.4775 TRACE - < Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Password" password input (0.245s)
+2021-11-29 21:49:05.4780  INFO < Set "123456789As@" to "Password" password input (0.246s)
+2021-11-29 21:49:05.4785  INFO > Click "Login Btn" button
+2021-11-29 21:49:05.4809 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Login Btn" button
+2021-11-29 21:49:05.4825 TRACE - - > Find visible element by XPath "(/html/body/div[3]/div/div/div/div[2]/div[2]/div/form/div[2]/div/button)/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver
+2021-11-29 21:49:05.5239 TRACE - - < Find visible element by XPath "(/html/body/div[3]/div/div/div/div[2]/div[2]/div/form/div[2]/div/button)/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver (0.041s) >> Element { Id=b16e324f-6fbb-4d87-bba0-a26baa947f02 }
+2021-11-29 21:49:05.5247 TRACE - - > Click element { Id=b16e324f-6fbb-4d87-bba0-a26baa947f02 }
+2021-11-29 21:49:05.6491 TRACE - - < Click element { Id=b16e324f-6fbb-4d87-bba0-a26baa947f02 } (0.124s)
+2021-11-29 21:49:05.6498 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Login Btn" button (0.168s)
+2021-11-29 21:49:05.6505  INFO < Click "Login Btn" button (0.171s)
+2021-11-29 21:49:08.6597  INFO > Click "Search Box" search input
+2021-11-29 21:49:08.6609 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Search Box" search input
+2021-11-29 21:49:08.6622 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' search-input--PtfH8 ')]/descendant-or-self::input[@type='search']" in ChromeDriver
+2021-11-29 21:49:09.2538 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' search-input--PtfH8 ')]/descendant-or-self::input[@type='search']" in ChromeDriver (0.591s) >> Element { Id=e601d86c-c752-4a68-8db2-815be1a4b148 }
+2021-11-29 21:49:09.2547 TRACE - - > Click element { Id=e601d86c-c752-4a68-8db2-815be1a4b148 }
+2021-11-29 21:49:09.6015 TRACE - - < Click element { Id=e601d86c-c752-4a68-8db2-815be1a4b148 } (0.346s)
+2021-11-29 21:49:09.6023 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Search Box" search input (0.941s)
+2021-11-29 21:49:09.6029  INFO < Click "Search Box" search input (0.943s)
+2021-11-29 21:49:09.6036  INFO > Set "Mobile" to "Search Box" search input
+2021-11-29 21:49:09.6046 TRACE - > Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Search Box" search input
+2021-11-29 21:49:09.6057 TRACE - - > Execute behavior ClearsValueUsingClearMethodAttribute against "Search Box" search input
+2021-11-29 21:49:09.6085 TRACE - - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' search-input--PtfH8 ')]/descendant-or-self::input[@type='search']" in ChromeDriver
+2021-11-29 21:49:09.6437 TRACE - - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' search-input--PtfH8 ')]/descendant-or-self::input[@type='search']" in ChromeDriver (0.035s) >> Element { Id=e601d86c-c752-4a68-8db2-815be1a4b148 }
+2021-11-29 21:49:09.6445 TRACE - - - > Clear element { Id=e601d86c-c752-4a68-8db2-815be1a4b148 }
+2021-11-29 21:49:09.6858 TRACE - - - < Clear element { Id=e601d86c-c752-4a68-8db2-815be1a4b148 } (0.041s)
+2021-11-29 21:49:09.6866 TRACE - - < Execute behavior ClearsValueUsingClearMethodAttribute against "Search Box" search input (0.080s)
+2021-11-29 21:49:09.6875 TRACE - - > Execute behavior TypesTextUsingSendKeysAttribute against "Search Box" search input
+2021-11-29 21:49:09.6883 TRACE - - - > Send keys "Mobile" to element { Id=e601d86c-c752-4a68-8db2-815be1a4b148 }
+2021-11-29 21:49:09.7980 TRACE - - - < Send keys "Mobile" to element { Id=e601d86c-c752-4a68-8db2-815be1a4b148 } (0.109s)
+2021-11-29 21:49:09.7995 TRACE - - < Execute behavior TypesTextUsingSendKeysAttribute against "Search Box" search input (0.111s)
+2021-11-29 21:49:09.8006 TRACE - < Execute behavior SetsValueUsingClearAndTypeBehaviorsAttribute against "Search Box" search input (0.196s)
+2021-11-29 21:49:09.8017  INFO < Set "Mobile" to "Search Box" search input (0.198s)
+2021-11-29 21:49:11.8169  INFO > Click "Search Btn" button
+2021-11-29 21:49:11.8192 TRACE - > Execute behavior ClicksUsingClickMethodAttribute against "Search Btn" button
+2021-11-29 21:49:11.8219 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' btn--1gFez ') and contains(concat(' ', normalize-space(@class), ' '), ' default--T8kE3 ') and contains(concat(' ', normalize-space(@class), ' '), ' small--1MQ15 ') and contains(concat(' ', normalize-space(@class), ' '), ' search-button--1_VmY ') and contains(concat(' ', normalize-space(@class), ' '), ' gtm-home-search-click ')]/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver
+2021-11-29 21:49:11.9153 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' btn--1gFez ') and contains(concat(' ', normalize-space(@class), ' '), ' default--T8kE3 ') and contains(concat(' ', normalize-space(@class), ' '), ' small--1MQ15 ') and contains(concat(' ', normalize-space(@class), ' '), ' search-button--1_VmY ') and contains(concat(' ', normalize-space(@class), ' '), ' gtm-home-search-click ')]/descendant-or-self::*[self::input[@type='button' or @type='submit' or @type='reset'] or self::button]" in ChromeDriver (0.093s) >> Element { Id=29083e80-edd1-4192-b822-9c242a3bbe58 }
+2021-11-29 21:49:11.9178 TRACE - - > Click element { Id=29083e80-edd1-4192-b822-9c242a3bbe58 }
+2021-11-29 21:49:24.1162 TRACE - - < Click element { Id=29083e80-edd1-4192-b822-9c242a3bbe58 } (12.198s)
+2021-11-29 21:49:24.1183 TRACE - < Execute behavior ClicksUsingClickMethodAttribute against "Search Btn" button (12.299s)
+2021-11-29 21:49:24.1197  INFO < Click "Search Btn" button (12.302s)
+2021-11-29 21:49:26.1431  INFO > Assert: "Search Page Text" <h1> heading content should equal "Mobile in Bangladesh"
+2021-11-29 21:49:26.1462 TRACE - > Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Search Page Text" <h1> heading
+2021-11-29 21:49:26.1492 TRACE - - > Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' heading--2eONR ') and contains(concat(' ', normalize-space(@class), ' '), ' undefined ') and contains(concat(' ', normalize-space(@class), ' '), ' ad-list-header--3g7Pb ') and contains(concat(' ', normalize-space(@class), ' '), ' block--3v-Ow ')]/descendant-or-self::h1" in ChromeDriver
+2021-11-29 21:49:27.1424 TRACE - - < Find visible element by XPath ".//*[contains(concat(' ', normalize-space(@class), ' '), ' heading--2eONR ') and contains(concat(' ', normalize-space(@class), ' '), ' undefined ') and contains(concat(' ', normalize-space(@class), ' '), ' ad-list-header--3g7Pb ') and contains(concat(' ', normalize-space(@class), ' '), ' block--3v-Ow ')]/descendant-or-self::h1" in ChromeDriver (0.993s) >> Element { Id=fb7884b0-b132-43a1-a6b6-ffc9a88bcafa }
+2021-11-29 21:49:27.2305 TRACE - < Execute behavior GetsContentFromSourceAttribute { Source=Text } against "Search Page Text" <h1> heading (1.084s) >> "Mobile in Bangladesh"
+2021-11-29 21:49:27.2329  INFO < Assert: "Search Page Text" <h1> heading content should equal "Mobile in Bangladesh" (1.089s)
+2021-11-29 21:49:29.2511  INFO > Clean up AtataContext
+2021-11-29 21:49:29.2530 TRACE - > Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent
+2021-11-29 21:49:29.2555 TRACE - < Execute event handler AddArtifactsToNUnitTestContextOnCleanUpEventHandler on AtataContextCleanUpEvent (0.002s)
+2021-11-29 21:49:31.0712  INFO < Clean up AtataContext (1.820s)
+2021-11-29 21:49:31.0727  INFO Finished test (1m 7.650s)
+2021-11-29 21:49:31.0739  INFO Pure test execution time: 1m 3.739s

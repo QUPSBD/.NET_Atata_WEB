@@ -39,7 +39,7 @@ namespace SampleApp.UITests.Pages
         [FindById(Locators.titleId)]
         public TextInput<_> Title { get; private set; }
 
-        [WaitForElement(WaitBy.Class, "textarea-field-error--2M0rR textarea--a2X6r themed-form-input--2Q2dw", Until.VisibleThenMissingOrHidden)]
+        [FindByXPath(Locators.descripTionXpath)]
         public TextArea<_> Description { get; private set; }
 
         [ScrollDown]

@@ -24,6 +24,7 @@ namespace SampleApp.UITests.Tests
         protected HomePage Login()
         {
             return Go.To<HomePage>()
+                .Report.Screenshot()
                 .SignIn.Click()
                 .ContinueWithEmail.Click()
                 .Email.Set(Locators.email)
