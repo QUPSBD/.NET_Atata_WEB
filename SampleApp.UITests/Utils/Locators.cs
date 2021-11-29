@@ -69,13 +69,43 @@ namespace SampleApp.UITests.Utils
         public const String titleText = "acer";
         public const String descripTionXpath = "//*[@id='app-wrapper']/div[1]/div[3]/div[5]/form/div[1]/div[2]/div/div[1]/textarea";
         public const String descriptionText = "This is a brand new laptop with 8 gb ram";
-        public const String phoneNumberId = "input_5";
+        public const String phoneNumberClass = "input-field--3A-bW themed-form-input--2Q2dw add-input--2HBu_";
         public const String phoneNumber = "01789456521";
         public const String addNumberClass = "btn--1gFez tertiary--5kHib small--1MQ15 add-button--1JzQV gtm-submit-phone-number";
         public const String checkBoxAccept = "checkbox_id_0";
+        public const String acceptId = "checkbox_id_1";
 
+        public const String sellItemXpath = "//*[@id='app-wrapper']/div[1]/div[3]/div[2]/div[2]/div[1]/ul/li[1]/button";
+        public const String postAJob = "//*[@id='app-wrapper']/div[1]/div[3]/div[2]/div[2]/div[2]/ul/li[1]/button";
+        public const String usedXpath = "//*[@id='app-wrapper']/div[1]/div[3]/div[5]/form/div[1]/div[1]/div/div[2]/div";
+        public const String brandXpath = "//*[@id='app-wrapper']/div[1]/div[3]/div[5]/form/div[1]/div[2]/div/div[1]/button";
+        public const String modelId = "input_model";
+        public const String priceId = "input_price";
+        public const String negotiableId = "negotiable";
 
+        //Search
+        public const String searchBoxClass = "search-input--PtfH8";
+        public const String searchBtnClass = "btn--1gFez default--T8kE3 small--1MQ15 search-button--1_VmY gtm-home-search-click";
+        public const String searchText = "Mobile";
+        public const String searchPageClass = "heading--2eONR undefined ad-list-header--3g7Pb block--3v-Ow";
+        public const String searchAssertText = "Mobile in Bangladesh";
 
-
+        //Categories
+        public const String categoriesClass = "link--1t8hM gtm-home-category-link-click";
+        public const String categoriesValidateClass = "ellipsis--AX_lz";
+        public const String mobile = "Mobiles";
+        public const String electronics = "Electronics";
+        public const String homeAndLiving = "Home & Living";
+        public const String Vehicles = "Vehicles";
+        public const String Property = "Property";
+        public const String PetsAndAnimals = "Pets & Animals";
+        public const String FashionAndBeauty = "Fashion & Beauty";
+        public const String HobbiesSportsKids = "Hobbies, Sports & Kids";
+        public const String BusinessIndustry = "Business & Industry";
+        public const String Education = "Education";
+        public const String Essentials = "Essentials";
+        public const String Services = "Services";
+        public const String OverseasJobs = "Overseas Jobs";
+        
     }
 }

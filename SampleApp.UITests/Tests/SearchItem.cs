@@ -10,14 +10,17 @@ using System.Threading.Tasks;
 
 namespace SampleApp.UITests.Tests
 {
-    public class ChatTest : UITestFixture
+    public class SearchItem : UITestFixture
     {
         [Test]
-        public void ChatPageTest()
+        public void SearchTest ()
         {
             Login().Wait(3)
-                .Chat.ClickAndGo()
-                .ChatHeader.Should.Equals("chat");
+                .SearchBox.Click()
+                .SearchBox.Set(Locators.searchText).Wait(2)
+                .SearchBtn.Click().Wait(2)
+                .SearchPageText.Should.Equal(Locators.searchAssertText).Wait(2);
+
         }
     }
 }

@@ -14,7 +14,15 @@ namespace SampleApp.UITests.Pages
     {
         [ScrollDown]
         [FindByXPath(Locators.lookForSomethingToBuyXpath)]
-        public Button<_> LoogForSomethingToBuy { get; private set; }
+        public Button<_> LookForSomethingToBuy { get; private set; }
+
+        [ScrollDown]
+        [FindByXPath(Locators.sellItemXpath)]
+        public Button<_> SellAnItem { get; private set; }
+
+        [ScrollDown]
+        [FindByXPath(Locators.postAJob)]
+        public Button<_> PostAJob { get; private set; }
 
         [FindByXPath(Locators.electronicsXpath)]
         public Button<_> Electronics { get; private set; }
@@ -31,11 +39,11 @@ namespace SampleApp.UITests.Pages
         [FindById(Locators.titleId)]
         public TextInput<_> Title { get; private set; }
 
-        [FindByXPath(Locators.descripTionXpath)]
+        [WaitForElement(WaitBy.Class, "textarea-field-error--2M0rR textarea--a2X6r themed-form-input--2Q2dw", Until.VisibleThenMissingOrHidden)]
         public TextArea<_> Description { get; private set; }
 
         [ScrollDown]
-        [FindByClass("input-field--3A-bW themed-form-input--2Q2dw add-input--2HBu_")]
+        [FindByClass(Locators.phoneNumberClass)]
         public TextInput<_> PhoneNumber { get; private set; }
 
         [ScrollDown]
@@ -43,8 +51,25 @@ namespace SampleApp.UITests.Pages
         public Button<_> Add { get; private set; }
 
         [ScrollDown]
-        [FindByXPath("//*[@id='app - wrapper']/div[1]/div[3]/div[5]/form/div[3]/div[2]/label/span")]
+        [FindById(Locators.acceptId)]
         public CheckBox<_> Accept { get; private set; }
 
+        [FindByXPath(Locators.usedXpath)]
+        public RadioButton<_> Used { get; private set; }
+
+        [FindByXPath(Locators.brandXpath)]
+        public Button<_> Brand { get; private set; }
+
+        [FindById("downshift-1-item-0")]
+        public ListItem<_> UnorderedList { get; private set; }
+
+        [FindById(Locators.modelId)]
+        public TextInput<_> Model { get; private set; }
+
+        [FindById(Locators.priceId)]
+        public NumberInput<_> Price { get; private set; }
+
+        [FindById(Locators.negotiableId)]
+        public CheckBox<_> Negotiable { get; private set; }
     }
 }

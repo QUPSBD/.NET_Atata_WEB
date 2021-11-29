@@ -33,7 +33,7 @@ namespace SampleApp.UITests.Pages
         [FindByClass(Locators.myAccountClass)]
         public Link<MyAccount, _> MyAccount { get; private set; }
 
-        [FindByXPath("//body/div[@id='app-container']/div[@id='app-wrapper']/div[1]/div[2]/div[1]/nav[1]/div[1]/ul[2]/li[1]/div[1]/a[1]")]
+        [FindByXPath("//*[@id='app - wrapper']/div[1]/div[2]/div/nav/div/ul[2]/li[1]/div/a")]
         public Link<ChatPage, _> Chat { get; private set; }
 
         public H1<_> ChatHeader { get; private set; }
@@ -41,6 +41,16 @@ namespace SampleApp.UITests.Pages
         [FindByClass(Locators.postyourAddClass)]
         public Link<PostAdd, _> PostYourAdd { get; private set; }
 
-        
+        [FindByClass(Locators.searchBoxClass)]
+        public SearchInput<_> SearchBox { get; private set; }
+
+        [FindByClass(Locators.searchBtnClass)]
+        public Button<_> SearchBtn { get; private set; }
+
+        [FindByClass(Locators.searchPageClass)]
+        public H1<_> SearchPageText { get; private set; }
+
+        [FindByClass("link--1t8hM gtm-home-category-link-click"), FindByIndex(0)]
+        public Link<_> Mobile { get; private set; }
     }
 }

@@ -1,5 +1,7 @@
 ﻿using Atata;
+using Atata.ExtentReports;
 using NUnit.Framework;
+
 
 namespace SampleApp.UITests.Tests
 {
@@ -14,10 +16,20 @@ namespace SampleApp.UITests.Tests
                     .WithArguments("start-maximized")
                 .UseBaseUrl("https://bikroy.com/")
                 .UseCulture("en-US")
-                .UseAllNUnitFeatures();
-                //.Attributes.Global.Add(new VerifyTitleSettingsAttribute { Format = "{0} - Atata Sample App" });
+                .UseAllNUnitFeatures()
+                //extentreportsconfigurations
+                .AddLogConsumer(new ExtentLogConsumer())
+                .AddScreenshotConsumer(new ExtentScreenshotConsumer());
+
+            //.Attributes.Global.Add(new VerifyTitleSettingsAttribute { Format = "{0} - Atata Sample App" });
 
             AtataContext.GlobalConfiguration.AutoSetUpDriverToUse();
+        }
+
+        [OneTimeTearDown]
+        public void GlobalTearDown()
+        {
+            ExtentContext.Reports.Flush();
         }
     }
 }
